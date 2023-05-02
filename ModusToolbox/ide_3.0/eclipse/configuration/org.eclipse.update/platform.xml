@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1663556974588" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.2.700.v20200705-1016" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.700.v20200705-1016/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.identity" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.identity_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1400.v20200812-2314" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1400.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.jsch" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.ssh.jsch_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.remote" version="3.0.1.201909031456" url="features/org.eclipse.remote_3.0.1.201909031456/">
+		</feature>
+		<feature id="ilg.gnumcueclipse.debug.gdbjtag.pyocd.feature" version="1.4.1.202001271244" url="features/ilg.gnumcueclipse.debug.gdbjtag.pyocd.feature_1.4.1.202001271244/" plugin-identifier="ilg.gnumcueclipse.debug.gdbjtag.pyocd">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.400.v20200812-2314" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.400.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.cdt.native" version="10.0.0.202009030027" url="features/org.eclipse.cdt.native_10.0.0.202009030027/" plugin-identifier="org.eclipse.cdt.core.native">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.dsf" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.dsf_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.dsf.gdb.ui">
+		</feature>
+		<feature id="org.eclipse.cdt" version="10.0.0.202009071455" url="features/org.eclipse.cdt_10.0.0.202009071455/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.17.0.v20200831-1002" url="features/org.eclipse.e4.rcp_4.17.0.v20200831-1002/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.dsf.source" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.dsf.source_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.dsf.gdb.ui">
+		</feature>
+		<feature id="org.eclipse.cdt.gdb" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gdb_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.jgit.http.apache" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.http.apache_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.900.v20200828-0839" url="features/org.eclipse.equinox.p2.user.ui_2.4.900.v20200828-0839/">
+		</feature>
+		<feature id="ilg.gnumcueclipse.debug.gdbjtag.jlink.feature" version="4.4.1.202001271244" url="features/ilg.gnumcueclipse.debug.gdbjtag.jlink.feature_4.4.1.202001271244/" plugin-identifier="ilg.gnumcueclipse.debug.gdbjtag.jlink">
+		</feature>
+		<feature id="ilg.gnumcueclipse.managedbuild.cross.arm.feature" version="2.7.1.202001271244" url="features/ilg.gnumcueclipse.managedbuild.cross.arm.feature_2.7.1.202001271244/" plugin-identifier="ilg.gnumcueclipse.managedbuild.cross.arm">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.debug.source" version="10.0.0.202009010132" url="features/org.eclipse.cdt.gnu.debug.source_10.0.0.202009010132/" plugin-identifier="org.eclipse.cdt.launch">
+		</feature>
+		<feature id="org.eclipse.cdt.sdk" version="10.0.0.202009071455" url="features/org.eclipse.cdt.sdk_10.0.0.202009071455/">
+		</feature>
+		<feature id="org.eclipse.mylyn.monitor" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.monitor_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.500.v20200812-2314" url="features/org.eclipse.ecf.core.ssl.feature_1.1.500.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.21.0.v20200917-1439" url="features/org.eclipse.emf.common_2.21.0.v20200917-1439/">
+		</feature>
+		<feature id="org.eclipse.cdt.platform.source" version="10.0.0.202009071455" url="features/org.eclipse.cdt.platform.source_10.0.0.202009071455/" plugin-identifier="org.eclipse.cdt.platform.branding">
+		</feature>
+		<feature id="org.eclipse.cdt.source" version="10.0.0.202009071455" url="features/org.eclipse.cdt.source_10.0.0.202009071455/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.17.0.v20200902-1800" url="features/org.eclipse.rcp_4.17.0.v20200902-1800/">
+		</feature>
+		<feature id="org.eclipse.cdt.native.source" version="10.0.0.202009030027" url="features/org.eclipse.cdt.native.source_10.0.0.202009030027/" plugin-identifier="org.eclipse.cdt.core.native">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext.editors_feature" version="3.0.38.202008172112" url="features/org.eclipse.mylyn.wikitext.editors_feature_3.0.38.202008172112/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="org.eclipse.egit" version="5.9.0.202009080501-r" url="features/org.eclipse.egit_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.apache" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.ssh.apache_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.jgit.gpg.bc" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.gpg.bc_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.cdt.build.crossgcc" version="10.0.0.202008310002" url="features/org.eclipse.cdt.build.crossgcc_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.5.700.v20200812-2314" url="features/org.eclipse.ecf.core.feature_1.5.700.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" version="1.0.702.v20201025-2303" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.0.702.v20201025-2303/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.900.v20200828-0839" url="features/org.eclipse.equinox.p2.extras.feature_1.4.900.v20200828-0839/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.900.v20200813-0739" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.900.v20200813-0739/">
+		</feature>
+		<feature id="com.cypress.studio.feature" version="3.0.0" url="features/com.cypress.studio.feature_3.0.0/" plugin-identifier="com.cypress.studio.app">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.build" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.build_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.build.gcc.ui">
+		</feature>
+		<feature id="org.eclipse.cdt.debug.gdbjtag" version="10.0.0.202008310002" url="features/org.eclipse.cdt.debug.gdbjtag_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.debug" version="10.0.0.202009010132" url="features/org.eclipse.cdt.gnu.debug_10.0.0.202009010132/" plugin-identifier="org.eclipse.cdt.launch">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.commons_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.cdt.gdb.source" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gdb.source_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.gdb">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.23.0.v20200630-0516" url="features/org.eclipse.emf.ecore_2.23.0.v20200630-0516/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.build.source" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.build.source_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.build.gcc.ui">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.6.700.v20200813-0739" url="features/org.eclipse.equinox.p2.core.feature_1.6.700.v20200813-0739/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.repositories" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.repositories_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.cdt.debug.ui.memory" version="10.0.0.202008310315" url="features/org.eclipse.cdt.debug.ui.memory_10.0.0.202008310315/" plugin-identifier="org.eclipse.cdt.debug.ui.memory.memorybrowser">
+		</feature>
+		<feature id="org.eclipse.mylyn.discovery" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.discovery_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.cdt.launch.remote" version="10.0.0.202008310002" url="features/org.eclipse.cdt.launch.remote_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext_feature" version="3.0.38.202008172112" url="features/org.eclipse.mylyn.wikitext_feature_3.0.38.202008172112/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.17.0.v20200902-1800" url="features/org.eclipse.platform_4.17.0.v20200902-1800/">
+		</feature>
+		<feature id="org.eclipse.cdt.platform" version="10.0.0.202009071455" url="features/org.eclipse.cdt.platform_10.0.0.202009071455/" plugin-identifier="org.eclipse.cdt.platform.branding">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.300.v20200902-1800" url="features/org.eclipse.help_2.3.300.v20200902-1800/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.mylyn_feature" version="3.25.2.v20200814-0512" url="features/org.eclipse.mylyn_feature_3.25.2.v20200814-0512/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.jgit" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.notifications" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.notifications_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="ilg.gnumcueclipse.debug.gdbjtag.openocd.feature" version="4.4.1.202001271244" url="features/ilg.gnumcueclipse.debug.gdbjtag.openocd.feature_4.4.1.202001271244/" plugin-identifier="ilg.gnumcueclipse.debug.gdbjtag.openocd">
+		</feature>
+	</site>
+</config>

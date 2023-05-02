@@ -1,0 +1,318 @@
+
+<CyMemoryConfiguration>
+    <PartNumber>N25Q256-4byteaddr</PartNumber>
+    <DisplayName>N25Q256 (4-byte Addressing Mode)</DisplayName>
+    <Description>32Mbytes serial Flash memory</Description>
+    <NumberOfAddress>0x04</NumberOfAddress>
+    <SizeOfMemory>0x2000000</SizeOfMemory>
+    <EraseBlockSize>0x0001000</EraseBlockSize>
+    <ProgramPageSize>0x0000100</ProgramPageSize>
+    <StatusRegisterBusyMask>0x01</StatusRegisterBusyMask>
+    <StatusRegisterQuadEnableMask>0x80</StatusRegisterQuadEnableMask>
+    <EraseTime>800</EraseTime>
+    <ChipEraseTime>480000</ChipEraseTime>
+    <ProgramTime>5000</ProgramTime>
+    <Commands mode="Single">
+        <Command>
+            <CommandDescription>Read command format</CommandDescription>
+            <CommandName>readCmd</CommandName>
+            <CommandNumber>0x0C</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>8</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write enable command format</CommandDescription>
+            <CommandName>writeEnCmd</CommandName>
+            <CommandNumber>0x06</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write disable command format</CommandDescription>
+            <CommandName>writeDisCmd</CommandName>
+            <CommandNumber>0x04</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Erase command format</CommandDescription>
+            <CommandName>eraseCmd</CommandName>
+            <CommandNumber>0xDC</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Chip erase command format</CommandDescription>
+            <CommandName>chipEraseCmd</CommandName>
+            <CommandNumber>0xC7</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Program command format</CommandDescription>
+            <CommandName>programCmd</CommandName>
+            <CommandNumber>0x12</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing QE bit)</CommandDescription>
+            <CommandName>readStsRegQeCmd</CommandName>
+            <CommandNumber>0x65</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing WIP bit)</CommandDescription>
+            <CommandName>readStsRegWipCmd</CommandName>
+            <CommandNumber>0x05</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write status register command (containing QE bit)</CommandDescription>
+            <CommandName>writeStsRegQeCmd</CommandName>
+            <CommandNumber>0x61</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+    </Commands>
+    <Commands mode="Dual">
+        <Command>
+            <CommandDescription>Read command format</CommandDescription>
+            <CommandName>readCmd</CommandName>
+            <CommandNumber>0xBC</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_DUAL</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_DUAL</ModeWidth>
+            <DummyCycles>8</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_DUAL</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write enable command format</CommandDescription>
+            <CommandName>writeEnCmd</CommandName>
+            <CommandNumber>0x06</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write disable command format</CommandDescription>
+            <CommandName>writeDisCmd</CommandName>
+            <CommandNumber>0x04</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Erase command format</CommandDescription>
+            <CommandName>eraseCmd</CommandName>
+            <CommandNumber>0xDC</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Chip erase command format</CommandDescription>
+            <CommandName>chipEraseCmd</CommandName>
+            <CommandNumber>0xC7</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Program command format</CommandDescription>
+            <CommandName>programCmd</CommandName>
+            <CommandNumber>0x12</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_DUAL</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_DUAL</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_DUAL</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing QE bit)</CommandDescription>
+            <CommandName>readStsRegQeCmd</CommandName>
+            <CommandNumber>0x65</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing WIP bit)</CommandDescription>
+            <CommandName>readStsRegWipCmd</CommandName>
+            <CommandNumber>0x05</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write status register command (containing QE bit)</CommandDescription>
+            <CommandName>writeStsRegQeCmd</CommandName>
+            <CommandNumber>0x61</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+    </Commands>
+    <Commands mode="Quad">
+        <Command>
+            <CommandDescription>Read command format</CommandDescription>
+            <CommandName>readCmd</CommandName>
+            <CommandNumber>0xEC</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_QUAD</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_QUAD</ModeWidth>
+            <DummyCycles>10</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_QUAD</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write enable command format</CommandDescription>
+            <CommandName>writeEnCmd</CommandName>
+            <CommandNumber>0x06</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write disable command format</CommandDescription>
+            <CommandName>writeDisCmd</CommandName>
+            <CommandNumber>0x04</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Erase command format</CommandDescription>
+            <CommandName>eraseCmd</CommandName>
+            <CommandNumber>0xDC</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Chip erase command format</CommandDescription>
+            <CommandName>chipEraseCmd</CommandName>
+            <CommandNumber>0xC7</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Program command format</CommandDescription>
+            <CommandName>programCmd</CommandName>
+            <CommandNumber>0x34</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_QUAD</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_QUAD</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_QUAD</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing QE bit)</CommandDescription>
+            <CommandName>readStsRegQeCmd</CommandName>
+            <CommandNumber>0x65</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read status register command (containing WIP bit)</CommandDescription>
+            <CommandName>readStsRegWipCmd</CommandName>
+            <CommandNumber>0x05</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write status register command (containing QE bit)</CommandDescription>
+            <CommandName>writeStsRegQeCmd</CommandName>
+            <CommandNumber>0x61</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+    </Commands>
+</CyMemoryConfiguration>

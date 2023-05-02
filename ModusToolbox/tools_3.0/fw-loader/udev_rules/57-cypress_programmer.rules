@@ -1,0 +1,22 @@
+# udev rules file for KitProg2/3 and MiniProg4 interfaces, to allow use by non super-users
+
+#KitProg2 bootloader
+KERNEL=="hidraw*", ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f146", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+#KitProg2 bridging
+KERNEL=="hidraw*", ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f147", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+#KitProg2 CMSIS-DAP HID
+KERNEL=="hidraw*", ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f148", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+#MiniProg4 
+ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f151", MODE="660", GROUP="plugdev", TAG+="uaccess"
+ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f152", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+#KitProg3 
+ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f154", MODE="660", GROUP="plugdev", TAG+="uaccess"
+ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f155", MODE="660", GROUP="plugdev", TAG+="uaccess"
+ATTRS{idVendor}=="04b4", ATTRS{idProduct}=="f166", MODE="660", GROUP="plugdev", TAG+="uaccess"
+
+#ARM DAPLink
+ATTRS{idVendor}=="0d28", ATTRS{idProduct}=="0204", MODE="660", GROUP="plugdev", TAG+="uaccess"

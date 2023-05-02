@@ -1,0 +1,62 @@
+﻿<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CyMemoryConfiguration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="PartNumber"/>
+        <xs:element type="xs:string" name="Configuration" minOccurs="0"/>
+        <xs:element type="xs:string" name="DisplayName" minOccurs="0"/>
+        <xs:element type="xs:string" name="Default" minOccurs="0"/>
+        <xs:element type="xs:string" name="Description"/>
+        <xs:element type="xs:string" name="NumberOfAddress"/>
+        <xs:element type="xs:string" name="SizeOfMemory"/>
+        <xs:element type="xs:string" name="EraseBlockSize"/>
+        <xs:element type="xs:string" name="ProgramPageSize"/>
+        <xs:element type="xs:string" name="StatusRegisterBusyMask"/>
+        <xs:element type="xs:string" name="StatusRegisterQuadEnableMask"/>
+        <xs:element type="xs:int" name="EraseTime"/>
+        <xs:element type="xs:int" name="ChipEraseTime"/>
+        <xs:element type="xs:int" name="ProgramTime"/>
+        <xs:element name="HybridInfo" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Region">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RegionIndex" type="xs:int" />
+                    <xs:element name="SectorCount" type="xs:int" />
+                    <xs:element name="SectorSize" type="xs:string" />
+                    <xs:element name="EraseCommand" type="xs:string" />
+                    <xs:element name="EraseTime" type="xs:int" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Commands" maxOccurs="4" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Command" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="CommandDescription"/>
+                    <xs:element type="xs:string" name="CommandName"/>
+                    <xs:element type="xs:string" name="CommandNumber"/>
+                    <xs:element type="xs:string" name="CmdWidth"/>
+                    <xs:element type="xs:string" name="AddrWidth"/>
+                    <xs:element type="xs:string" name="Mode"/>
+                    <xs:element type="xs:string" name="ModeWidth"/>
+                    <xs:element type="xs:byte" name="DummyCycles"/>
+                    <xs:element type="xs:string" name="DataWidth"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="mode" use="optional" default="Quad"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="version" use="optional" default="1"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

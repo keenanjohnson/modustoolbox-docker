@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+  <file alias="images/Abort-programming-operation">images/Abort-programming-operation.ico</file>
+  <file alias="images/dfu">images/dfu.ico</file>
+  <file alias="images/ellipsis">images/ellipsis.ico</file>
+  <file alias="images/Erase-flash-memory-of-the-target-device">images/Erase-flash-memory-of-the-target-device.ico</file>
+  <file alias="images/error">images/error.ico</file>
+  <file alias="images/Open-file">images/Open-file.ico</file>
+  <file alias="images/Program-flash-memory-of-the-target-device">images/Program-flash-memory-of-the-target-device.ico</file>
+  <file alias="images/Verify-programmed-flash-memory-against-the-given-file">images/Verify-programmed-flash-memory-against-the-given-file.ico</file>
+</qresource>
+</RCC>

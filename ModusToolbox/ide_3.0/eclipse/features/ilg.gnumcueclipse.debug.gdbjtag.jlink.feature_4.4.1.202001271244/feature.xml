@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ilg.gnumcueclipse.debug.gdbjtag.jlink.feature"
+      label="%featureName"
+      version="4.4.1.202001271244"
+      provider-name="%providerName"
+      plugin="ilg.gnumcueclipse.debug.gdbjtag.jlink">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="ilg.gnumcueclipse.debug.gdbjtag.jlink"
+         download-size="180"
+         install-size="359"
+         version="4.4.1.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.debug.gdbjtag.restart"
+         download-size="15"
+         install-size="18"
+         version="1.3.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.debug.core"
+         download-size="6"
+         install-size="5"
+         version="1.2.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.core"
+         download-size="1643"
+         install-size="1893"
+         version="4.7.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.debug.gdbjtag"
+         download-size="345"
+         install-size="699"
+         version="4.2.1.202001271244"
+         unpack="false"/>
+
+</feature>

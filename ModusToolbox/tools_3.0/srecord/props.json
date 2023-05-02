@@ -1,0 +1,18 @@
+{
+  "core": {
+    "id": "95a8ee73-f73d-480f-adde-563c6101fea7",
+    "name": "srecord",
+    "version": "1.64.0.15",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "srecord_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "srec_cat_EXE_ABS": "$$TOOLPATH:bin/srec_cat:absolute$$",
+        "srec_cmp_EXE_ABS": "$$TOOLPATH:bin/srec_cmp:absolute$$",
+        "srec_info_EXE_ABS": "$$TOOLPATH:bin/srec_info:absolute$$"
+      }
+    }
+  }
+}

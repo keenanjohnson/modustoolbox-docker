@@ -1,0 +1,95 @@
+{
+    "core": {
+        "id": "50fdb1c5-cedd-42d2-9430-4953d7b2eb1d",
+        "name": "capsense-configurator",
+        "version": "5.0.0.2684",
+        "schema-version": "1"
+    },
+    "opt": {
+        "tool": {
+            "make-vars": {
+                "capsense-configurator_BASE": "$$TOOL_DIR$$",
+                "capsense-tuner_BASE": "$$TOOL_DIR$$"
+            }
+        },
+        "programs": [
+            {
+                "id": "c262113c-38bb-49e3-9698-78ce547026a9",
+                "short-name": "capsense-configurator",
+                "exe": "capsense-configurator",
+                "icon": "capsense-configurator.png",
+                "display-name": "CAPSENSE™ Configurator 5.0",
+                "priority-extensions": [
+                    ".cycapsense"
+                ],
+                "extensions": [
+                    ".cycapsense"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$ --library $$DEVICE_SUPPORT_LIB$$",
+                "new-file": "$$CFGARGS:.*\\.modus\\$:design.modus:design.cycapsense:--design:--config:bsp_project$$ --library $$DEVICE_SUPPORT_LIB$$",
+                "type": "bsp",
+                "make-vars": {
+                    "capsense-configurator_EXE": "$$TOOLPATH:capsense-configurator:relative$$"
+                },
+                "app-make-targets": [
+                    "capsense-configurator"
+                ],
+                "prj-make-targets" : [
+                    "capsense-configurator"
+                ],
+                "compat": {
+                    "open": {
+                        "EXT": "cycapsense",
+                        "FILE": "$$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$",
+                        "TOOL": "$$TOOLPATH:capsense-configurator:absolute$$",
+                        "TOOL_FLAGS": "--config $$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$ $$DEVICE_SUPPORT_LIB_OPT$$",
+                        "TOOL_NEWCFG_FLAGS": "$$CFGARGS:.*\\.modus\\$:design.modus:design.cycapsense:--design:--config:bsp_project$$ $$DEVICE_SUPPORT_LIB_OPT$$"
+                    }
+                }
+            },
+            {
+                "id": "2082abb0-b79e-4b25-a43d-092954675afd",
+                "short-name": "capsense-tuner",
+                "exe": "capsense-tuner",
+                "icon": "capsense-tuner.png",
+                "display-name": "CAPSENSE™ Tuner 5.0",
+                "extensions": [
+                    ".cycapsense"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$",
+                "make-vars": {
+                    "capsense-tuner_EXE": "$$TOOLPATH:capsense-tuner:relative$$"
+                },
+                "app-make-targets": [
+                    "capsense-tuner"
+                ],
+                "prj-make-targets" : [
+                    "capsense-tuner"
+                ],
+                "type": "bsp",
+                "compat": {
+                    "open": {
+                        "EXT": "cycapsense",
+                        "FILE": "$$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$",
+                        "TOOL": "$$TOOLPATH:capsense-tuner:absolute$$",
+                        "TOOL_FLAGS": "--config"
+                    }
+                }
+            },
+            {
+                "id": "24b238a6-7f4c-446e-8acd-21fc6a14ec93",
+                "short-name": "capsense-configurator-cli",
+                "exe": "capsense-configurator-cli",
+                "display-name": "capsense-configurator-cli",
+                "extensions": [
+                    ".cycapsense"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.cycapsense\\$:bsp_project:full$$",
+                "type": "bsp",
+                "make-vars": {
+                    "capsense-configurator-cli_EXE": "$$TOOLPATH:capsense-configurator-cli:relative$$"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+<CyDevice>
+  <DisplayName>CAT1A</DisplayName>
+  <StartAddress>0x18000000</StartAddress>
+  <EndAddress>0x58000000</EndAddress>
+  <SupportsV3>false</SupportsV3>
+  <Default>true</Default>
+  <HasInternalFlash>true</HasInternalFlash>
+  <HasPatchableFlashloaders>false</HasPatchableFlashloaders>
+</CyDevice>

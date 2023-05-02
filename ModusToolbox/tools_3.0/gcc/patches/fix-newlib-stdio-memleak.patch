@@ -1,0 +1,28 @@
+diff --git a/newlib/libc/stdio/findfp.c b/newlib/libc/stdio/findfp.c
+index 896be99e9..a4b7a8d08 100644
+--- a/newlib/libc/stdio/findfp.c
++++ b/newlib/libc/stdio/findfp.c
+@@ -154,7 +154,7 @@ __sfp (struct _reent *d)
+ 
+   if (!_GLOBAL_REENT->__sdidinit)
+     __sinit (_GLOBAL_REENT);
+-  for (g = &_GLOBAL_REENT->__sglue;; g = g->_next)
++  for (g = &d->__sglue;; g = g->_next)
+     {
+       for (fp = g->_iobs, n = g->_niobs; --n >= 0; fp++)
+ 	if (fp->_flags == 0)
+@@ -212,12 +212,8 @@ _cleanup_r (struct _reent *ptr)
+ #else
+   /* Otherwise close files and flush read streams, too.
+      Note we call flush directly if "--enable-lite-exit" is in effect.  */
+-#ifdef _LITE_EXIT
+-  cleanup_func = _fflush_r;
+-#else
+   cleanup_func = _fclose_r;
+ #endif
+-#endif
+ #ifdef _REENT_GLOBAL_STDIO_STREAMS
+   if (ptr->_stdin != &__sf[0])
+     (*cleanup_func) (ptr, ptr->_stdin);
+-- 
+2.27.0

@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="dfuh-tool">
+    <display_name>Device Firmware Update Host Tool 1.60</display_name>
+    <executable>dfuh-tool</executable>
+    <icon>dfuh-tool.png</icon>
+    <command_line_args />
+    <new_configuration_enabled>none</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cyacd2</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

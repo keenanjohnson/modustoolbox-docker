@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="ez-pd-configurator">
+    <display_name>EZ-PD™ Configurator 1.20</display_name>
+    <executable>ez-pd-configurator</executable>
+    <icon>ez-pd-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>true</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">mtbezpd</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

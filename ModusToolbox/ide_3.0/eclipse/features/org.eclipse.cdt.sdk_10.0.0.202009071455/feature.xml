@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.sdk"
+      label="%featureName"
+      version="10.0.0.202009071455"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.cdt.source"
+         version="10.0.0.202009071455"/>
+
+   <includes
+         id="org.eclipse.cdt"
+         version="10.0.0.202009071455"/>
+
+   <plugin
+         id="org.eclipse.cdt.sdk"
+         download-size="20"
+         install-size="36"
+         version="10.0.0.202008310002"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.doc.isv"
+         download-size="7891"
+         install-size="39920"
+         version="5.4.500.202009010132"
+         unpack="false"/>
+
+</feature>

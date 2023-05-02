@@ -1,0 +1,16 @@
+{
+  "core": {
+    "id": "f7378c77-8ea8-424b-8a47-7602c3882c49",
+    "name": "mtblaunch",
+    "version": "1.0.0.1971",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "mtblaunch_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "mtblaunch_EXE_ABS": "$$TOOLPATH:mtblaunch:absolute$$"
+      }
+    }
+  }
+}

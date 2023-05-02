@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ilg.gnumcueclipse.managedbuild.cross.arm.feature"
+      label="%featureName"
+      version="2.7.1.202001271244"
+      provider-name="%providerName"
+      plugin="ilg.gnumcueclipse.managedbuild.cross.arm">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="ilg.gnumcueclipse.managedbuild.cross.arm"
+         download-size="99"
+         install-size="341"
+         version="2.7.1.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.packs.core"
+         download-size="71"
+         install-size="118"
+         version="2.4.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.core"
+         download-size="1643"
+         install-size="1893"
+         version="4.7.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.debug.core"
+         download-size="6"
+         install-size="5"
+         version="1.2.2.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.managedbuild.cross"
+         download-size="50"
+         install-size="129"
+         version="1.3.1.202001271244"
+         unpack="false"/>
+
+   <plugin
+         id="ilg.gnumcueclipse.managedbuild.packs"
+         download-size="43"
+         install-size="79"
+         version="1.3.4.202001271244"
+         unpack="false"/>
+
+</feature>

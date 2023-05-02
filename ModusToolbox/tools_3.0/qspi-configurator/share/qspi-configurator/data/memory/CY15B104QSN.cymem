@@ -1,0 +1,131 @@
+
+<CyMemoryConfiguration version="2">
+    <PartNumber>CY15B104QSN</PartNumber>
+    <Configuration></Configuration>
+    <Description>The Excelon-Ultra CY15B104QSN is a high-performance, 4-Mbit 3.0V
+nonvolatile memory employing an advanced ferroelectric
+process.</Description>
+    <NumberOfAddress>0x03</NumberOfAddress>
+    <SizeOfMemory>0x80000</SizeOfMemory>
+    <EraseBlockSize>NA</EraseBlockSize>
+    <ProgramPageSize>0x80000</ProgramPageSize>
+    <StatusRegisterBusyMask>0x01</StatusRegisterBusyMask>
+    <StatusRegisterQuadEnableMask>0x02</StatusRegisterQuadEnableMask>
+    <EraseTime>0</EraseTime>
+    <ChipEraseTime>0</ChipEraseTime>
+    <ProgramTime>10</ProgramTime>
+    <Commands mode="Single">
+        <Command>
+            <CommandDescription>Read</CommandDescription>
+            <CommandName>readCmd</CommandName>
+            <CommandNumber>0x03</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write Enable</CommandDescription>
+            <CommandName>writeEnCmd</CommandName>
+            <CommandNumber>0x06</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write Disable</CommandDescription>
+            <CommandName>writeDisCmd</CommandName>
+            <CommandNumber>0x04</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Program</CommandDescription>
+            <CommandName>programCmd</CommandName>
+            <CommandNumber>0x02</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read WIP Register</CommandDescription>
+            <CommandName>readStsRegWipCmd</CommandName>
+            <CommandNumber>0x05</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+    </Commands>
+    <Commands mode="Dual">
+        <Command>
+            <CommandDescription>Read</CommandDescription>
+            <CommandName>readCmd</CommandName>
+            <CommandNumber>0xBB</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_DUAL</AddrWidth>
+            <Mode>0x01</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_DUAL</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_DUAL</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write Enable</CommandDescription>
+            <CommandName>writeEnCmd</CommandName>
+            <CommandNumber>0x06</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Write Disable</CommandDescription>
+            <CommandName>writeDisCmd</CommandName>
+            <CommandNumber>0x04</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Program</CommandDescription>
+            <CommandName>programCmd</CommandName>
+            <CommandNumber>0xA1</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_DUAL</AddrWidth>
+            <Mode>0x01</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_DUAL</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_DUAL</DataWidth>
+        </Command>
+        <Command>
+            <CommandDescription>Read WIP Register</CommandDescription>
+            <CommandName>readStsRegWipCmd</CommandName>
+            <CommandNumber>0x05</CommandNumber>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <Mode>0xFFFFFFFF</Mode>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <DummyCycles>0</DummyCycles>
+            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+        </Command>
+    </Commands>
+</CyMemoryConfiguration>

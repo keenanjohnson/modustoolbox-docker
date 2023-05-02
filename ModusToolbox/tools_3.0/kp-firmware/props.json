@@ -1,0 +1,14 @@
+{ 
+    "core": { 
+      "id": "2bd09d79-2620-45fd-9452-77d1dbfe41d5", 
+      "name": "kp-firmware", 
+      "version": "2.40.0.1241" 
+    }, 
+    "opt": { 
+      "tool": { 
+        "make-vars": { 
+          "kp-firmware_BASE" : "$$TOOL_DIR$$" 
+        } 
+      } 
+    } 
+} 

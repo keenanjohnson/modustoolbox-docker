@@ -1,0 +1,8 @@
+{
+  "core": {
+    "id": "4fb28db8-7f7d-487b-9a65-5f50815cea7b",
+    "name": "jre",
+    "version": "11.0.9.130",
+    "schema-version": "1"
+  }
+}

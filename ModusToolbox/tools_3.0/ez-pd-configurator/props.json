@@ -1,0 +1,82 @@
+{
+    "core": {
+        "id": "d5e53262-9571-4d51-85db-1b47f98a0ff8",
+        "name": "ez-pd-configurator",
+        "version": "1.20.0.1079",
+        "schema-version": "1"
+    },
+    "opt": {
+        "tool": {
+            "make-vars": {
+                "ez-pd-configurator_BASE": "$$TOOL_DIR$$"
+            }
+        },
+        "programs": [
+            {
+                "id": "10d49b46-cc4e-4360-a17b-1d4ac389f5cc",
+                "short-name": "ez-pd-configurator",
+                "exe": "ez-pd-configurator",
+                "icon": "ez-pd-configurator.png",
+                "display-name": "EZ-PD™ Configurator 1.20",
+                "priority-extensions": [
+                    ".mtbezpd"
+                ],
+                "extensions": [
+                    ".mtbezpd"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.mtbezpd\\$:bsp_project:full$$",
+                "new-file": "--config $$PROJECT_DIR$$/design.mtbezpd",
+                "make-vars": {
+                    "ez-pd-configurator_EXE": "$$TOOLPATH:ez-pd-configurator:relative$$"
+                },
+                "app-make-targets": [
+                    "config_ezpd",
+                    "ez-pd-configurator"
+                ],
+                "prj-make-targets" : [
+                    "config_ezpd",
+                    "ez-pd-configurator"
+                ],
+                "type": "bsp",
+                "compat": {
+                    "open": {
+                        "EXT": "mtbezpd",
+                        "FILE": "$$FINDFILE:.*\\.mtbezpd\\$:bsp_project:full$$",
+                        "TOOL": "$$TOOLPATH:ez-pd-configurator:absolute$$",
+                        "TOOL_FLAGS": "--config",
+                        "TOOL_NEWCFG_FLAGS": "--config $$PROJECT_DIR$$/design.mtbezpd"
+                    }
+                }
+            },
+            {
+                "id": "245b5238-aca6-4a5b-9548-52612e937dbe",
+                "short-name": "ez-pd-configurator-cli",
+                "exe": "ez-pd-configurator-cli",
+                "display-name": "ez-pd-configurator-cli",
+                "extensions": [
+                    ".mtbezpd"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.mtbezpd\\$:bsp_project:full$$",
+                "type": "bsp",
+                "make-vars": {
+                    "ez-pd-configurator-cli_EXE": "$$TOOLPATH:ez-pd-configurator-cli:relative$$"
+                },
+                "code-gen": [
+                    {
+                        "name": "ez-pd-configurator",
+                        "sources": [
+                            "$$FINDFILE:.*\\.mtbezpd\\$:bsp_project:absolute$$"
+                        ],
+                        "outputs": [
+                            "$$FINDDIR:.*\\.mtbezpd\\$:bsp_project:absolute:error$$/GeneratedSource/mtbcfg_ezpd.timestamp"
+                        ],
+                        "args": "--config $$FINDFILE:.*\\.mtbezpd\\$:bsp_project:absolute$$",
+                        "passes": [
+                            "default"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

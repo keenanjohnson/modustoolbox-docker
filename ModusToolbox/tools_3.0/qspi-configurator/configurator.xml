@@ -1,0 +1,13 @@
+<configurators>
+  <configurator id="qspi-configurator">
+    <display_name>QSPI Configurator 4.0</display_name>
+    <executable>qspi-configurator</executable>
+    <icon>qspi-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>false</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cyqspi</supported_file_extension>
+      <supported_file_extension default="false">cymem</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

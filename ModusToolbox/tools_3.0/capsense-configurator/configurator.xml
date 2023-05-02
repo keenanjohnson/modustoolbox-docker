@@ -1,0 +1,23 @@
+<configurators>
+  <configurator id="capsense-configurator">
+    <display_name>CAPSENSE™ Configurator 5.0</display_name>
+    <executable>capsense-configurator</executable>
+    <icon>capsense-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>false</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cycapsense</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+
+  <configurator id="capsense-tuner">
+    <display_name>CAPSENSE™ Tuner 5.0</display_name>
+    <executable>capsense-tuner</executable>
+    <icon>capsense-tuner.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>false</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension>cycapsense</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

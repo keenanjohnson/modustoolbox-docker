@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CyAppConfiguration xmlns:Version="MIFConfigurationTool.Data">
+  <CyMemFile></CyMemFile>
+  <CyHeaderGeneratorFile>..\..\..\data\cysmifheadergenerator.exe</CyHeaderGeneratorFile>
+  <DefaultMemory>..\..\..\data\DEFAULT_MEMORY.xml</DefaultMemory>
+  <DevicesFolder>..\..\..\data\Supported Devices\</DevicesFolder>
+  <SupportedMemoryFolder>..\..\..\data\Supported Memory\</SupportedMemoryFolder>
+  <MemoryFolders>
+    <MemoryFolder>..\..\..\data\User Memory\</MemoryFolder>
+    <MemoryFolder>..\..\..\data\User Memory\</MemoryFolder>
+  </MemoryFolders>
+</CyAppConfiguration>

@@ -1,0 +1,18 @@
+{
+  "core": {
+    "id": "ea4c192a-6fd4-4cf5-a0bb-1491015a6537",
+    "name": "cymcuelftool",
+    "version": "1.0.0.62",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "cymcuelftool_BASE": "$$TOOL_DIR:relative$$",
+        "cymcuelftool_EXE": "$$TOOLPATH:bin/cymcuelftool:relative$$",
+        "cymcuelftool_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "cymcuelftool_EXE_ABS": "$$TOOLPATH:bin/cymcuelftool:absolute$$"
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "core": {
+    "id": "8472a194-a4ec-4c1b-bfda-b6fca90b3f0d",
+    "name": "gcc",
+    "version": "10.3.1.130"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "gcc_BASE": "$$TOOL_DIR:relative$$",
+        "gcc_BASE_ABS": "$$TOOL_DIR:absolute$$"
+      }
+    },
+    "programs": [
+      {
+        "id": "3d428039-98d3-4f02-b52d-87602f89fe77",
+        "exe": "bin/arm-none-eabi-gcc",
+        "type" : "none",
+        "display-name": "GCC",
+        "short-name" : "gcc",
+        "make-vars": {
+          "arm-none-eabi-gcc_EXE": "$$TOOLPATH:bin/arm-none-eabi-gcc:relative$$",
+          "arm-none-eabi-gcc_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-gcc:absolute$$"
+        }
+      },
+      {
+        "id": "a473d9d4-e84e-4e0f-94bd-06fa94d29bf8",
+        "exe": "bin/arm-none-eabi-g++",
+        "type" : "none",
+        "display-name": "G++",
+        "short-name" : "gplusplus",
+        "make-vars": {
+          "arm-none-eabi-g++_EXE": "$$TOOLPATH:bin/arm-none-eabi-g++:relative$$",
+          "arm-none-eabi-g++_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-g++:absolute$$"
+        }
+      },
+      {
+        "id": "7e84d33c-786c-4d18-a179-668539bc6586",
+        "exe": "bin/arm-none-eabi-ar",
+        "display-name": "AR",
+        "type" : "none",
+        "short-name" : "ar",
+        "make-vars": {
+          "arm-none-eabi-ar_EXE": "$$TOOLPATH:bin/arm-none-eabi-ar:relative$$",
+          "arm-none-eabi-ar_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-ar:absolute$$"
+        }
+      },
+      {
+        "id": "9149f097-4810-4df1-851d-ddbb2ed8959a",
+        "exe": "bin/arm-none-eabi-gdb",
+        "display-name": "GDB",
+        "type" : "none",
+        "short-name" : "gdb",
+        "make-vars": {
+          "arm-none-eabi-gdb_EXE": "$$TOOLPATH:bin/arm-none-eabi-gdb:relative$$",
+          "arm-none-eabi-gdb_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-gdb:absolute$$"
+        }
+      },
+      {
+        "id": "c742dbc9-090c-4023-a1cb-dde2c92527fa",
+        "exe": "bin/arm-none-eabi-objcopy",
+        "display-name": "OBJCOPY",
+        "type" : "none",
+        "short-name" : "objcopy",
+        "make-vars": {
+          "arm-none-eabi-objcopy_EXE": "$$TOOLPATH:bin/arm-none-eabi-objcopy:relative$$",
+          "arm-none-eabi-objcopy_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-objcopy:absolute$$"
+        }
+      },
+      {
+        "id": "4051b1d2-f117-4d36-b2df-d0b63e1898fb",
+        "exe": "bin/arm-none-eabi-readelf",
+        "display-name": "READELF",
+        "type" : "none",
+        "short-name" : "readelf",
+        "make-vars": {
+          "arm-none-eabi-readelf_EXE": "$$TOOLPATH:bin/arm-none-eabi-readelf:relative$$",
+          "arm-none-eabi-readelf_EXE_ABS": "$$TOOLPATH:bin/arm-none-eabi-readelf:absolute$$"
+        }
+      }
+    ]
+  }
+}

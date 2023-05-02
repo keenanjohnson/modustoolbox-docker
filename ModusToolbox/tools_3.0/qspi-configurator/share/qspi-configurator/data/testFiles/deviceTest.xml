@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CyDevice xmlns:Version="MIFConfigurationTool.Data">
+  <PartNumber>TestPartNumber</PartNumber>
+  <StartAddress>0xDEADBEEF</StartAddress>
+  <EndAddress>0xDEADBEEF</EndAddress>
+</CyDevice>

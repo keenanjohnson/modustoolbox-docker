@@ -1,0 +1,65 @@
+{
+    "core": {
+        "id": "03f9f03d-7c7e-480e-836b-1ac02df50a96",
+        "name": "seglcd-configurator",
+        "version": "1.50.0.891",
+        "schema-version": "1"
+    },
+    "opt": {
+        "tool": {
+            "make-vars": {
+                "seglcd-configurator_BASE": "$$TOOL_DIR$$"
+            }
+        },
+        "programs": [
+            {
+                "id": "09ac3252-040d-486f-999c-5c1882d827b2",
+                "short-name": "seglcd-configurator",
+                "exe": "seglcd-configurator",
+                "icon": "seglcd-configurator.png",
+                "display-name": "Segment LCD Configurator 1.50",
+                "priority-extensions": [
+                    ".cyseglcd"
+                ],
+                "extensions": [
+                    ".cyseglcd"
+                ],
+                "open-file": "$$CFGARGS:.*\\.cyseglcd\\$:design.modus:design.cyseglcd:--design:--config:bsp_project$$ --library $$DEVICE_SUPPORT_LIB$$ $$MPN_LIST_OPT$$",
+                "new-file": "$$CFGARGS:.*\\.modus\\$:design.modus:design.cyseglcd:--design:--config:bsp_project$$ --library $$DEVICE_SUPPORT_LIB$$",
+                "type": "bsp",
+                "make-vars": {
+                    "seglcd-configurator_EXE": "$$TOOLPATH:seglcd-configurator:relative$$"
+                },
+                "app-make-targets": [
+                    "seglcd-configurator"
+                ],
+                "prj-make-targets": [
+                    "seglcd-configurator"
+                ],
+                "compat": {
+                    "open": {
+                        "EXT": "cyseglcd",
+                        "FILE": "$$FINDFILE:.*\\.cyseglcd\\$:bsp_project:full$$",
+                        "TOOL": "$$TOOLPATH:seglcd-configurator:absolute$$",
+                        "TOOL_FLAGS": "--design $$FINDFILE:.*\\.modus\\$:bsp_project:full$$ --config $$DEVICE_SUPPORT_LIB_OPT$$",
+                        "TOOL_NEWCFG_FLAGS": "$$CFGARGS:.*\\.modus\\$:design.modus:design.cyseglcd:--design:--config:bsp_project$$ $$DEVICE_SUPPORT_LIB_OPT$$ --check-mcu=$$DEVICE$$ --check-coprocessors=$$ADDITIONAL_DEVICES:,$$"
+                    }
+                }
+            },
+            {
+                "id": "90e58744-1249-4e71-a686-4529d44313cc",
+                "short-name": "seglcd-configurator-cli",
+                "exe": "seglcd-configurator-cli",
+                "display-name": "seglcd-configurator-cli",
+                "extensions": [
+                    ".cyseglcd"
+                ],
+                "open-file": "--config $$FINDFILE:.*\\.cyseglcd\\$:bsp_project:full$$",
+                "type": "bsp",
+                "make-vars": {
+                    "seglcd-configurator-cli_EXE": "$$TOOLPATH:seglcd-configurator-cli:relative$$"
+                }
+            }
+        ]
+    }
+}

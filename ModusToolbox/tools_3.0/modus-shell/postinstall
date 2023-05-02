@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+set -e
+cd "$(dirname "$0")"
+mkdir -p bin
+for tool in cat cp make mkdir mktemp mv perl rm rmdir sh bash git; do
+  if [ ! -e bin/$tool -a ! -L bin/$tool ]; then
+    FULLPATH=$(command -v $tool || true)
+    if [ -n "$FULLPATH" ]; then
+      ln -s $FULLPATH bin/$TOOL
+    else
+      echo "$tool not found. Check installation guide for pre-requisites setup details."
+    fi
+  fi
+done

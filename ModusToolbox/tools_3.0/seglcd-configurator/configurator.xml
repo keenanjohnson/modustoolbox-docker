@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="seglcd-configurator">
+    <display_name>SegLCD Configurator 1.50</display_name>
+    <executable>seglcd-configurator</executable>
+    <icon>seglcd-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>false</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cyseglcd</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

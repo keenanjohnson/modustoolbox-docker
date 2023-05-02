@@ -1,0 +1,14 @@
+The Software contained in this package may be subject to export control:
+ALNR: N
+ECCN: N
+ECCN-US: EAR99/ N when publicly available
+SI-class: N
+MYCLASS: N
+MXCLASS: N
+HKCLASS: N
+Software classified with “ALNR not equal to N“ are subject to European or German export authorization when being exported out of the EU.
+Software classified with “ECCN not equal to N“ are subject to US re-export authorization.
+Software classified with “SICLASS not equal to N" are subject to Singaporean Strategic Goods Control authorization when being exported out of Singapore.
+Even without a label, or with label "ALNR:N" or "ECCN:N" authorization may be required due to the final whereabouts and purpose for which the goods are to be used.
+Furthermore, the specified export control classifications are not binding, as export control regulations are subject to interpretations, changes and possible differences in national requirements. The ultimate determination of applicable export control classifications and related categorizations remains solely your responsibility.
+Infineon makes no representation as to the accuracy or reliability of the information provided. You agree to use this information at your own risk and to hold Infineon harmless in the event of any damages or penalties incurred by any party based on your use or reliance on the information provided here.

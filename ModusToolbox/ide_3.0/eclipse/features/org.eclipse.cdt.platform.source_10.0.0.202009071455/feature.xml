@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.cdt.platform.source" version="10.0.0.202009071455" plugin="org.eclipse.cdt.platform.branding" label="%featureName" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.cdt.native.source" version="10.0.0.202009030027"/>
+  <plugin id="org.eclipse.cdt.core.source" version="7.0.0.202009010132" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.core.source" version="4.1.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.ui.source" version="3.4.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.core.cxx.source" version="3.5.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.ui.cxx.source" version="3.6.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.checkers.source" version="3.4.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.codan.checkers.ui.source" version="3.3.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.debug.core.source" version="8.5.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.debug.ui.source" version="8.4.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.make.core.source" version="7.5.0.202009040332" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.make.ui.source" version="8.0.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.managedbuilder.core.source" version="9.0.0.202009010132" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.managedbuilder.ui.source" version="9.2.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.ui.source" version="7.0.0.202009071455" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.dsf.source" version="2.9.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.dsf.ui.source" version="2.6.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.flatpak.launcher.source" version="1.0.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.native.serial.source" version="1.2.0.202009030027" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.platform.branding.source" version="10.0.0.202008310002" download-size="0" install-size="0" unpack="false"/>
+</feature>
