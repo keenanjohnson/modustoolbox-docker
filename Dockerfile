@@ -6,6 +6,10 @@ ENV UDEV=1
 # Install the packages required by ModusToolbox
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
+    autoconf \
+    build-essential \
+    lcov \
+    libtool \
     udev \
     binutils \
     make \
