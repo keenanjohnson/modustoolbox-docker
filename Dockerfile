@@ -24,7 +24,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     libgl1-mesa-dev \
     sudo \
     python3-pip \
-    udev
+    udev \
+    vim
 
 # Environment variables
 ARG MTB_VERSION=3.0
