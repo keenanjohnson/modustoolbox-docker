@@ -1,0 +1,17 @@
+{
+  "core": {
+    "id": "9e9c17e6-e876-4f89-b2c1-284542f51667",
+    "name": "mtbideexport",
+    "version": "1.1.0.166",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "mtbideexport_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "mtbideexport_EXE_ABS": "$$TOOLPATH:mtbideexport:absolute$$",
+        "mtbideexport_EXPORT_INTERFACE": "3.1"
+      }
+    }
+  }
+}

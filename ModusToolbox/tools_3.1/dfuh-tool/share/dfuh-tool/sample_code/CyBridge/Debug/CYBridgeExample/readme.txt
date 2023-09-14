@@ -1,0 +1,1 @@
+To run the example the whole content of the lib folder should be copied to output folder

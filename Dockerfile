@@ -28,7 +28,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     vim
 
 # Environment variables
-ARG MTB_VERSION=3.0
+ARG MTB_VERSION=3.1
 ENV HOME=/home
 ENV MTB_TOOLS_DIR=${HOME}/ModusToolbox/tools_${MTB_VERSION}
 
@@ -46,7 +46,7 @@ RUN cd ${MTB_TOOLS_DIR}/fw-loader/udev_rules \
 RUN cd ${MTB_TOOLS_DIR}/modus-shell \
     && sh postinstall
 RUN cd ${MTB_TOOLS_DIR} \
-    && bash idc_registration-3.0.0.bash
+    && bash idc_registration-3.1.0.bash
 
 # Add MTB gcc and project-creator tool to path
 ENV PATH "${MTB_TOOLS_DIR}/gcc/bin:$PATH:${MTB_TOOLS_DIR}/project-creator"

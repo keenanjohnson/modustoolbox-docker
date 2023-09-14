@@ -1,0 +1,42 @@
+{
+    "core": {
+        "id": "b06430ee-8655-4184-baf4-afd979fcf5e3",
+        "name": "secure-policy-configurator",
+        "version": "1.40.0.997",
+        "schema-version": "1"
+    },
+    "opt": {
+        "tool": {
+            "make-vars": {
+                "secure-policy-configurator_BASE": "$$TOOL_DIR:relative$$"
+            }
+        },
+        "programs": [
+            {
+                "id": "d682c54e-3b22-4816-b080-6a930e7c23c1",
+                "short-name": "secure-policy-configurator",
+                "exe": "secure-policy-configurator",
+                "icon": "secure-policy-configurator.png",
+                "display-name": "Secure Policy Configurator 1.40",
+                "priority-extensions": [
+                    ".cysecuretools"
+                ],
+                "extensions": [
+                    ".cysecuretools"
+                ],
+                "open-file": "$$FINDFILE:.*\\.cysecuretools\\$:bsp_project:full$$ --target $$DEVICE$$",
+                "type": "project",
+                "make-vars": {
+                    "secure-policy-configurator_EXE": "$$TOOLPATH:secure-policy-configurator:relative$$"
+                },
+                "compat": {
+                    "open": {
+                        "TOOL": "$$TOOLPATH:secure-policy-configurator:absolute$$",
+                        "TOOL_FLAGS": "--target=$(CY_CYSECURETOOLS_TARGET)",
+                        "TOOL_NEWCFG_FLAGS": "--target=$(CY_CYSECURETOOLS_TARGET)"
+                    }
+                }
+            }
+        ]
+    }
+}

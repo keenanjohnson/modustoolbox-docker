@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="lin-configurator">
+    <display_name>LIN Configurator 1.21</display_name>
+    <executable>lin-configurator</executable>
+    <icon>lin-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>true</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">mtblin</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

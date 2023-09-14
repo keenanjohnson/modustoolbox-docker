@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="smartio-configurator">
+    <display_name>Smart I/O Configurator 4.10</display_name>
+    <executable>smartio-configurator</executable>
+    <icon>smartio-configurator.png</icon>
+    <command_line_args>--design=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>false</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension>modus</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

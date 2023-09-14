@@ -1,0 +1,18 @@
+{
+    "core": {
+      "id": "02a95a4e-d3a2-45b4-a0cd-cad42df094bc",
+      "name": "detectandid",
+      "version": "5.0.0.157",
+      "schema-version": "1"
+    },
+    "opt": {
+      "tool": {
+        "make-vars": {
+          "det_and_id_BASE": "$$TOOL_DIR:relative$$",
+          "det_and_id_EXE": "$$TOOLPATH:bin/DetAndId:relative$$",
+          "det_and_id_BASE_ABS": "$$TOOL_DIR:absolute$$",
+          "det_and_id_EXE_ABS": "$$TOOLPATH:bin/DetAndId:absolute$$"
+        }
+      }
+    }
+}

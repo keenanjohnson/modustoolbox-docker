@@ -1,0 +1,42 @@
+{
+    "core": {
+      "id": "ca566a8c-aeed-4297-a4ad-4a82b121193c",
+      "name": "airoc-tools",
+      "version": "5.0.0.157",
+      "schema-version": "1"
+    },
+    "opt": {
+      "tool": {
+        "make-vars": {
+          "cgs_BASE": "$$TOOLPATH:cgs:relative$$",
+          "cgs_EXE": "$$TOOLPATH:cgs/bin/cgs:relative$$",
+          "cgs_BASE_ABS": "$$TOOLPATH:cgs:absolute$$",
+          "cgs_EXE_ABS": "$$TOOLPATH:cgs/bin/cgs:absolute$$",
+          "append_to_intel_hex_BASE": "$$TOOLPATH:AppendToIntelHex:relative$$",
+          "append_to_intel_hex_EXE": "$$TOOLPATH:AppendToIntelHex/bin/AppendToIntelHex:relative$$",
+          "append_to_intel_hex_BASE_ABS": "$$TOOLPATH:AppendToIntelHex:absolute$$",
+          "append_to_intel_hex_EXE_ABS": "$$TOOLPATH:AppendToIntelHex/bin/AppendToIntelHex:absolute$$",
+          "head_or_tail_BASE": "$$TOOLPATH:HeadOrTail:relative$$",
+          "head_or_tail_EXE": "$$TOOLPATH:HeadOrTail/bin/HeadOrTail:relative$$",
+          "head_or_tail_BASE_ABS": "$$TOOLPATH:HeadOrTail:absolute$$",
+          "head_or_tail_EXE_ABS": "$$TOOLPATH:HeadOrTail/bin/HeadOrTail:absolute$$",
+          "intel_hex_merge_BASE": "$$TOOLPATH:IntelHexMerge:relative$$",
+          "intel_hex_merge_EXE": "$$TOOLPATH:IntelHexMerge/bin/IntelHexMerge:relative$$",
+          "intel_hex_merge_BASE_ABS": "$$TOOLPATH:IntelHexMerge:absolute$$",
+          "intel_hex_merge_EXE_ABS": "$$TOOLPATH:IntelHexMerge/bin/IntelHexMerge:absolute$$",
+          "intel_hex_to_bin_BASE": "$$TOOLPATH:IntelHexToBin:relative$$",
+          "intel_hex_to_bin_EXE": "$$TOOLPATH:IntelHexToBin/bin/IntelHexToBin:relative$$",
+          "intel_hex_to_bin_BASE_ABS": "$$TOOLPATH:IntelHexToBin:absolute$$",
+          "intel_hex_to_bin_EXE_ABS": "$$TOOLPATH:IntelHexToBin/bin/IntelHexToBin:absolute$$",
+          "intel_hex_to_hcd_BASE": "$$TOOLPATH:IntelHexToHCD:relative$$",
+          "intel_hex_to_hcd_EXE": "$$TOOLPATH:IntelHexToHCD/bin/IntelHexToHCD:relative$$",
+          "intel_hex_to_hcd_BASE_ABS": "$$TOOLPATH:IntelHexToHCD:absolute$$",
+          "intel_hex_to_hcd_EXE_ABS": "$$TOOLPATH:IntelHexToHCD/bin/IntelHexToHCD:absolute$$",
+          "shift_intel_hex_BASE": "$$TOOLPATH:ShiftIntelHex:relative$$",
+          "shift_intel_hex_EXE": "$$TOOLPATH:ShiftIntelHex/bin/ShiftIntelHex:relative$$",
+          "shift_intel_hex_BASE_ABS": "$$TOOLPATH:ShiftIntelHex:absolute$$",
+          "shift_intel_hex_EXE_ABS": "$$TOOLPATH:ShiftIntelHex/bin/ShiftIntelHex:absolute$$"
+        }
+      }
+    }
+}

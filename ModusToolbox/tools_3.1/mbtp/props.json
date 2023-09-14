@@ -1,0 +1,18 @@
+{
+    "core": {
+      "id": "95a753a5-0e30-4e2b-93ec-d4e52abbc44b",
+      "name": "mbtp",
+      "version": "5.0.0.157",
+      "schema-version": "1"
+    },
+    "opt": {
+      "tool": {
+        "make-vars": {
+          "mbtp_BASE": "$$TOOL_DIR:relative$$",
+          "mbtp_EXE": "$$TOOLPATH:bin/MbtP:relative$$",
+          "mbtp_BASE_ABS": "$$TOOL_DIR:absolute$$",
+          "mbtp_EXE_ABS": "$$TOOLPATH:bin/MbtP:absolute$$"
+        }
+      }
+    }
+}

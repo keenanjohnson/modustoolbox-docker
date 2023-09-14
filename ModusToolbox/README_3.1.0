@@ -1,0 +1,65 @@
+------------------
+Installation Guide
+------------------
+This document is provided for Linux users. See also the ModusToolbox™ tools package installation guide included with the installation of the tools.
+
+
+System Requirements
+-------------------
+The ModusToolbox™ software consumes approximately 2 GB of disk space. Like most modern software, it requires both free disk space and memory to run effectively. We recommend a system configuration with a PassMark CPU score > 2000 (cpubenchmark.net), at least 25 GB of free disk space, and 8 GB of RAM. The product will operate with fewer resources; however, performance may be degraded.
+
+ModusToolbox™ software is supported on Ubuntu Linux 18.04 LTS, 20.04 LTS, and 22.04 LTS. It is not supported on 32-bit operating systems.
+
+ModusToolbox™ software requires the following programs to work properly. Many of these programs may not be installed on your Ubuntu system:
+ * diffutils
+ * git
+ * make
+ * coreutils
+ * perl
+ * python3
+ * libxcb-xinerama0
+
+Run the following command to install these packages, as applicable:
+	$ sudo apt install diffutils git make coreutils perl python3 libxcb-xinerama0
+
+If you intend to use "secure" devices, refer to this README.md file on GitHub for more details: https://github.com/Infineon/cysecuretools/blob/master/README.md.
+
+
+Download
+--------
+The ModusToolbox™ tools package is available from the Infineon Developer Center website (https:// softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolbox) to download and/or install. Select the Linux (Ubunbtu) package:
+ * Linux: ModusToolbox_3.1.0.<build>-linux-install.tar.gz 
+
+Note:	For a Linux install, we recommend using the Download option.
+
+
+Installation
+------------
+There are several ways to extract the ModusToolbox_3.1.0.<build>-linux-install.tar.gz file; ensure that the end result looks like this:
+	/home/<user>/ModusToolbox/
+ 
+If the files/folders were extracted into a different location, move them to /home/<user>/ModusToolbox. 
+ 
+Note:	The Launcher tool currently extracts the files into /home/<user>/.local/share/Infineon_Technologies_AG/Infineon-Toolbox/Tools/ModusToolbox_<version>-linux-install/ModusToolbox/.
+
+If you need to install ModusToolbox in a non-default location, you must set the CY_TOOLS_PATHS environment variable for your system to point to the ModusToolbox/tools_3.1 folder, or set that variable in each Makefile.
+
+After extracting, you must run the following scripts before running ModusToolbox™ software on your machine:
+ * OpenOCD: /home/<user>/ModusToolbox/tools_3.1/openocd/udev_rules/install_rules.sh 
+ * AIROC™ Bluetooth® Boards: /home/<user>/ModusToolbox/tools_3.1/driver_media/install_rules.sh 
+ * Firmware Loader: /home/<user>/ModusToolbox/tools_3.1/fw-loader/udev_rules/install_rules.sh 
+ * Post-Install Script: /home/<user>/ModusToolbox/tools_3.1/modus-shell/postinstall 
+ * IDC Registration Script: /home/<user>/ModusToolbox/tools_3.1/idc_registration-3.1.0.bash 
+
+
+Device Access
+-------------
+On common Linux distributions, the serial UART ports (usually /dev/ttySx or /dev/ttyUSBx devices) belong to the 
+root user and to the dialout or plugdev groups. Standard users are not allowed to access these devices.
+
+An easy way to allow the current user access to the Linux machine's serial ports is by adding the user to the 
+dialout and plugdev groups. This can be done using the following command:
+
+     $ sudo usermod -a -G dialout,plugdev $USER
+
+Note: For this command to take effect, you must log out and then log back in.
