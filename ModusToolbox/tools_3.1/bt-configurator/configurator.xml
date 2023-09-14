@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="bt-configurator">
+    <display_name>Bluetooth® Configurator 2.80</display_name>
+    <executable>bt-configurator</executable>
+    <icon>bt-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>true</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cybt</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

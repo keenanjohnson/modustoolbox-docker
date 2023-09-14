@@ -1,0 +1,16 @@
+{
+  "core": {
+    "id": "0afffb32-ea89-4f58-9ee8-6950d44cb004",
+    "name": "modus-shell",
+    "version": "1.4.0.104",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "modus-shell_BASE": "$$TOOL_DIR:relative$$",
+        "modus-shell_BASE_ABS": "$$TOOL_DIR:absolute$$"
+      }
+    }
+  }
+}

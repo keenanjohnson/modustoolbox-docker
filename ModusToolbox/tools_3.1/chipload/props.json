@@ -1,0 +1,19 @@
+{
+    "core": {
+      "id": "9b0f72e0-738a-4ce5-bf49-5906fce1ee15",
+      "name": "chipload",
+      "version": "1.6.1.21050",
+      "schema-version": "1"
+    },
+    "opt": {
+      "tool": {
+        "make-vars": {
+          "chipload_BASE": "$$TOOL_DIR:relative$$",
+          "chipload_EXE": "$$TOOLPATH:bin/ChipLoad:relative$$",
+          "chipload_BASE_ABS": "$$TOOL_DIR:absolute$$",
+          "chipload_EXE_ABS": "$$TOOLPATH:bin/ChipLoad:absolute$$"
+        }
+      }
+    }
+}
+

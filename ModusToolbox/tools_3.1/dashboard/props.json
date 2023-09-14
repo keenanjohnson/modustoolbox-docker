@@ -1,0 +1,33 @@
+{
+  "core": {
+    "id": "B65FBCC8-EBC9-4F6E-B992-5006E2FBBB14",
+    "name": "dashboard",
+    "version": "3.1.0.109",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "dashboard_BASE": "$$TOOL_DIR:relative$$",
+        "dashboard_EXE": "$$TOOLPATH:dashboard:relative$$",
+        "dashboard_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "dashboard_EXE_ABS": "$$TOOLPATH:dashboard:absolute$$"
+      }
+    },
+    "programs": [
+      {
+        "id": "06ADFC39-D0DB-4F2C-8B5D-CC78D83C5767",
+        "exe": "dashboard",
+        "type": "none",
+        "display-name": "Dashboard 3.1",
+        "short-name": "dashboard",
+        "icon": "dashboard.png",
+        "compat": {
+          "open": {
+            "dashboard_TOOL": "$$TOOLPATH:dashboard:absolute$$"
+          }
+        }
+      }
+    ]
+  }
+}

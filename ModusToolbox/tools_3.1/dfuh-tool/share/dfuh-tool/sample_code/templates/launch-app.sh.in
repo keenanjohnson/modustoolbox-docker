@@ -1,0 +1,4 @@
+#!/bin/sh
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+exec "$SCRIPTPATH/@BUNDLE_NAME@.app/Contents/MacOS/@TARGET_NAME@" "$@"

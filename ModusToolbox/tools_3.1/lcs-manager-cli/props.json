@@ -1,0 +1,16 @@
+{
+  "core": {
+    "id": "74a9688f-86e2-4ea0-8590-ca29a4b91ca4",
+    "name": "lcs-manager-cli",
+    "version": "1.0.0.113",
+    "schema-version": "1"
+  },
+  "opt": {
+    "tool": {
+      "make-vars": {
+        "lcs-manager-cli_BASE_ABS": "$$TOOL_DIR:absolute$$",
+        "lcs-manager-cli_EXE_ABS": "$$TOOLPATH:lcs-manager-cli:absolute$$"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<configurators>
+  <configurator id="usbdev-configurator">
+    <display_name>USB Configurator 2.51</display_name>
+    <executable>usbdev-configurator</executable>
+    <icon>usbdev-configurator.png</icon>
+    <command_line_args>--config=$CONFIG_FILE</command_line_args>
+    <new_configuration_enabled>true</new_configuration_enabled>
+    <supported_file_extensions>
+      <supported_file_extension default="true">cyusbdev</supported_file_extension>
+    </supported_file_extensions>
+  </configurator>
+</configurators>

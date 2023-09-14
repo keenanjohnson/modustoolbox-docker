@@ -5,13 +5,15 @@ A dockerfile container Infineon's ModusToolbox Software.
 
 This is a linux/amd64 docker image based on ubuntu:20.04.
 
-It contains the [ModusToolBox Software from Infineon](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/?gclid=Cj0KCQjw6cKiBhD5ARIsAKXUdybf2bRvBXwHj2pttHm3ssw_dpDqsZv2um8lGSookLAv3g8c43uZ0ZQaAnYREALw_wcB&gclsrc=aw.ds).
+It contains the [ModusToolBox Software from Infineon](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolbox).
 
-Current Version: 3.0.0.9369
+Current Version: 3.1.0.12257
 
 You can inspect the contents of what will be installed in the docker container in the [ModusToolbox directory](ModusToolbox).
 
-The enviroment variable: CY_TOOLS_PATHS is already set inside of the docker container and points to the install directory for Modustoolbox. This means that if you set up a ModusToolbox project, you should be able to run ```make build``` to build the project.
+The enviroment variable: CY_TOOLS_PATHS is already set inside of the docker container and points to the install directory for Modustoolbox.
+
+This means that if you set up a ModusToolbox project, you should be able to run ```make build``` to build the project.
 
 ## Usage
 

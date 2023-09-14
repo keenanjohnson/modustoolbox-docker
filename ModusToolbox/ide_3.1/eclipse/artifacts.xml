@@ -1,0 +1,2506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1684857640320'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='461'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rcp' version='4.17.0.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='19547'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.local' version='4.7.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='28432'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views' version='3.10.400.v20200611-1719'>
+      <properties size='1'>
+        <property name='download.size' value='106757'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.batik.util' version='1.13.0.v20200622-2037'>
+      <properties size='1'>
+        <property name='download.size' value='147539'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.floatingpoint' version='1.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='132259'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding' version='1.10.0.v20200815-1752'>
+      <properties size='1'>
+        <property name='download.size' value='184459'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.util' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='591567'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.browser.chromium.gtk.linux.x86_64' version='3.115.0.v20200831-1002'>
+      <properties size='1'>
+        <property name='download.size' value='789872'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.ui' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='3783296'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='1466643'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin' version='2.1.400.v20191002-0702'>
+      <properties size='1'>
+        <property name='download.size' value='36937'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt' version='3.115.0.v20200831-1002'>
+      <properties size='1'>
+        <property name='download.size' value='17336'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.bidi' version='1.3.0.v20200612-1624'>
+      <properties size='1'>
+        <property name='download.size' value='51252'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.extensionlocation' version='1.3.400.v20191213-1911'>
+      <properties size='1'>
+        <property name='download.size' value='35810'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.gdbjtag' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19348'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.core' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='126518'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core' version='0.12.1300.v20200615-1701'>
+      <properties size='1'>
+        <property name='download.size' value='215818'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.hamcrest.core' version='1.3.0.v20180420-1519'>
+      <properties size='1'>
+        <property name='download.size' value='66997'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.ui' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='337778'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb' version='7.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='16929'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare' version='3.7.1100.v20200611-0145'>
+      <properties size='1'>
+        <property name='download.size' value='811253'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.extras.feature' version='1.4.900.v20200828-0839'>
+      <properties size='1'>
+        <property name='download.size' value='19561'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag.core' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='63680'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.ui.source' version='7.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='9271'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.core' version='1.2.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='10793'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.console' version='1.2.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='62880'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi' version='2.16.0.v20190528-0725'>
+      <properties size='1'>
+        <property name='download.size' value='235078'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench3' version='0.15.400.v20191216-0805'>
+      <properties size='1'>
+        <property name='download.size' value='21306'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives' version='1.3.600.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='81895'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.ui' version='7.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='11553'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.platform' version='4.17.0.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='455412'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='8.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='1081167'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.linux.x86_64' version='1.2.400.v20190924-1023'>
+      <properties size='1'>
+        <property name='download.size' value='97808'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.httpclient45.feature' version='1.0.702.v20201025-2303'>
+      <properties size='1'>
+        <property name='download.size' value='28581'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.gdbjtag.openocd' version='4.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='121338'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.isv' version='5.4.500.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='8081079'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.jzlib' version='1.1.1.v201205102305'>
+      <properties size='1'>
+        <property name='download.size' value='81597'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.source' version='7.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='4297972'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers' version='3.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='158496'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.ui' version='2.1.1.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='159155'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.core.feature' version='1.5.700.v20200812-2314'>
+      <properties size='1'>
+        <property name='download.size' value='20183'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.quicklinks' version='1.1.0.v20200724-0708'>
+      <properties size='1'>
+        <property name='download.size' value='24061'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.confluence' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='95129'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cypress.studio' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='49120'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.gnu.ui' version='8.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='54470'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.twiki' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='51750'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.discovery.feature' version='1.2.700.v20200705-1016'>
+      <properties size='1'>
+        <property name='download.size' value='19467'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.remote' version='2.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='73789'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='14774'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.search' version='1.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='60775'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core' version='3.23.0.v20200828-0941'>
+      <properties size='1'>
+        <property name='download.size' value='7165866'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.managedbuild.packs' version='1.3.4.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='44403'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.io' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='177150'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core' version='8.5.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='330813'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.registry' version='1.2.0.v20200614-1851'>
+      <properties size='1'>
+        <property name='download.size' value='47856'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.batik.constants' version='1.13.0.v20200622-2037'>
+      <properties size='1'>
+        <property name='download.size' value='20770'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.core' version='6.1.0.v20170814-1820'>
+      <properties size='1'>
+        <property name='download.size' value='2592218'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.wikitext_feature' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='19565'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.search' version='3.12.0.v20200727-2017'>
+      <properties size='1'>
+        <property name='download.size' value='546981'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.batik.i18n' version='1.13.0.v20200622-2037'>
+      <properties size='1'>
+        <property name='download.size' value='23970'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui' version='7.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='6332580'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app' version='1.1.600.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='57652'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.jsch.ui' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='43981'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui' version='2.6.100.v20200731-1005'>
+      <properties size='1'>
+        <property name='download.size' value='623249'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.notifications' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19725'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.core' version='4.7.2.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='1683365'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.engine' version='2.6.700.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='210812'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='2844997'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.monitor.ui' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='53026'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.extensions' version='0.16.0.v20200507-0938'>
+      <properties size='1'>
+        <property name='download.size' value='11383'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.8.0.v20200422-1833'>
+      <properties size='1'>
+        <property name='download.size' value='137172'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ilg.gnumcueclipse.debug.gdbjtag.jlink.feature' version='4.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='13499'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.core' version='8.4.1.v20200122-1459'>
+      <properties size='1'>
+        <property name='download.size' value='3487768'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.jsp.jasper.registry' version='1.1.400.v20200422-1833'>
+      <properties size='1'>
+        <property name='download.size' value='12841'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'>
+      <properties size='1'>
+        <property name='download.size' value='15720'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench' version='3.120.0.v20200829-1411'>
+      <properties size='1'>
+        <property name='download.size' value='3557407'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.control' version='5.0.0.202009071350'>
+      <properties size='1'>
+        <property name='download.size' value='205643'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common' version='2.21.0.v20200917-1439'>
+      <properties size='1'>
+        <property name='download.size' value='375624'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.queryparser' version='6.1.0.v20161115-1612'>
+      <properties size='1'>
+        <property name='download.size' value='443729'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.context.core' version='3.25.2.v20200828-1617'>
+      <properties size='1'>
+        <property name='download.size' value='129474'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.egit' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='19553'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.cheatsheets' version='3.7.0.v20200805-2057'>
+      <properties size='1'>
+        <property name='download.size' value='388480'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.telnet' version='4.7.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='51967'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.core' version='3.5.800.v20200608-1251'>
+      <properties size='1'>
+        <property name='download.size' value='108728'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.core.feature' version='1.6.700.v20200813-0739'>
+      <properties size='1'>
+        <property name='download.size' value='20122'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface' version='3.21.0.v20200821-1458'>
+      <properties size='1'>
+        <property name='download.size' value='1126055'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.xml.bind' version='2.3.3.v20201118-1818'>
+      <properties size='1'>
+        <property name='download.size' value='1206296'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.telnet.ui' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='104008'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.i2p.crypto.eddsa' version='0.3.0.v20181102-1323'>
+      <properties size='1'>
+        <property name='download.size' value='88099'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.servlet' version='1.6.600.v20200707-1543'>
+      <properties size='1'>
+        <property name='download.size' value='235118'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.gpg.bc' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='14773'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug' version='10.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='19329'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.sdk' version='1.1.700.v20200731-1005'>
+      <properties size='1'>
+        <property name='download.size' value='52825'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer' version='5.1.100.v20200611-2221'>
+      <properties size='1'>
+        <property name='download.size' value='53271'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.source' version='3.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='68807'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19359'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text.quicksearch' version='1.0.300.v20200519-2023'>
+      <properties size='1'>
+        <property name='download.size' value='95301'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.packs.data' version='2.4.2.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='93289'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core.source' version='7.5.0.202009040332'>
+      <properties size='1'>
+        <property name='download.size' value='310405'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.source' version='8.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='581506'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.gdbjtag.pyocd' version='1.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='187827'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.managedbuild.cross.arm' version='2.7.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='101694'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='38679'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.model.workbench' version='2.1.800.v20200828-0938'>
+      <properties size='1'>
+        <property name='download.size' value='397665'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build.source' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20570'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.editors' version='3.13.300.v20200812-2334'>
+      <properties size='1'>
+        <property name='download.size' value='613814'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro' version='3.5.1100.v20200828-0803'>
+      <properties size='1'>
+        <property name='download.size' value='345766'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.linux.x86_64' version='1.1.300.v20190830-1238'>
+      <properties size='1'>
+        <property name='download.size' value='16992'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.app' version='1.5.0.v20200717-0620'>
+      <properties size='1'>
+        <property name='download.size' value='89285'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cypress.studio.app' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='4694391'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.9.0.v20200625-1425'>
+      <properties size='1'>
+        <property name='download.size' value='194756'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.textile' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='92619'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.jasper.glassfish' version='2.2.2.v201501141630'>
+      <properties size='1'>
+        <property name='download.size' value='2473000'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag.ui' version='9.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='64930'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpcore' version='4.4.12.v20200108-1212'>
+      <properties size='1'>
+        <property name='download.size' value='359067'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.source' version='2.9.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='205171'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.gtk.linux.x86_64' version='3.115.0.v20200831-1002'>
+      <properties size='1'>
+        <property name='download.size' value='2060041'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.emf.xpath' version='0.2.800.v20200609-0849'>
+      <properties size='1'>
+        <property name='download.size' value='51364'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.stream' version='1.0.1.v201004272200'>
+      <properties size='1'>
+        <property name='download.size' value='43618'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.repositories.core' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='49680'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.screenshots' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='112372'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.9.0.v201101211617'>
+      <properties size='1'>
+        <property name='download.size' value='1350089'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.asciidoc' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='115194'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.cxx.source' version='3.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20709'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.ui.memory' version='10.0.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='19392'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.ant' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='47075'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core.source' version='9.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='982663'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.markdown' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='87481'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.gpg.bc' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='31019'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.source' version='7.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='11772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.source' version='10.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='20492'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.guava' version='21.0.0.v20170206-1425'>
+      <properties size='1'>
+        <property name='download.size' value='2675014'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.user.ui' version='2.4.900.v20200828-0839'>
+      <properties size='1'>
+        <property name='download.size' value='19352'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.externaltools' version='1.1.700.v20200416-1310'>
+      <properties size='1'>
+        <property name='download.size' value='43370'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rcp' version='4.17.0.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='11335'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.jarprocessor' version='1.1.600.v20200217-1130'>
+      <properties size='1'>
+        <property name='download.size' value='73656'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.operations' version='2.5.900.v20200808-1311'>
+      <properties size='1'>
+        <property name='download.size' value='75804'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui' version='3.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='131060'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.w3c.dom.svg' version='1.1.0.v201011041433'>
+      <properties size='1'>
+        <property name='download.size' value='97545'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.core' version='3.6.900.v20200412-2017'>
+      <properties size='1'>
+        <property name='download.size' value='68193'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ilg.gnumcueclipse.managedbuild.cross.arm.feature' version='2.7.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='13508'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.observable' version='1.10.0.v20200730-0848'>
+      <properties size='1'>
+        <property name='download.size' value='313950'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem' version='1.7.700.v20200110-1734'>
+      <properties size='1'>
+        <property name='download.size' value='66954'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.bindings' version='0.12.900.v20200513-0930'>
+      <properties size='1'>
+        <property name='download.size' value='46115'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.ui' version='1.3.1000.v20200610-0847'>
+      <properties size='1'>
+        <property name='download.size' value='93570'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.ecore' version='2.23.0.v20200630-0516'>
+      <properties size='1'>
+        <property name='download.size' value='19551'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository' version='1.3.400.v20191211-1528'>
+      <properties size='1'>
+        <property name='download.size' value='133270'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.jxpath' version='1.3.0.v200911051830'>
+      <properties size='1'>
+        <property name='download.size' value='325439'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core' version='2.6.300.v20200211-1504'>
+      <properties size='1'>
+        <property name='download.size' value='76716'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director' version='2.4.700.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='109497'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui' version='3.118.0.v20200807-0902'>
+      <properties size='1'>
+        <property name='download.size' value='442821'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.ui' version='3.3.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='65777'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui.source' version='8.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='256478'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.continuation' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='32530'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui.source' version='2.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='682158'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.cdtserial' version='4.7.100.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='30432'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.bouncycastle.bcpkix' version='1.65.0.v20200527-1955'>
+      <properties size='1'>
+        <property name='download.size' value='852275'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19380'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.gdbjtag.restart' version='1.3.2.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='15719'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.sdk' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20617'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.server' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='739606'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.asciidoc.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='10683'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.eclipse' version='1.3.700.v20200828-0839'>
+      <properties size='1'>
+        <property name='download.size' value='240165'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.native.serial.source' version='1.2.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='24115'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help' version='3.8.800.v20200525-0755'>
+      <properties size='1'>
+        <property name='download.size' value='273255'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.genericeditor' version='1.1.800.v20200828-1000'>
+      <properties size='1'>
+        <property name='download.size' value='139699'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.ide' version='3.15.100.v20200323-2111'>
+      <properties size='1'>
+        <property name='download.size' value='11378'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.source' version='4.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='136978'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.platform' version='4.17.0.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='21072'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository' version='2.4.800.v20200813-0739'>
+      <properties size='1'>
+        <property name='download.size' value='142286'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring' version='3.11.100.v20200720-0748'>
+      <properties size='1'>
+        <property name='download.size' value='343755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatesite' version='1.1.400.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='100664'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.annotations' version='1.6.600.v20191216-2352'>
+      <properties size='1'>
+        <property name='download.size' value='12249'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.gcc.ui.source' version='1.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19492'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.rcp.feature' version='1.4.900.v20200813-0739'>
+      <properties size='1'>
+        <property name='download.size' value='19464'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.memorybrowser' version='1.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='67923'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.repositories' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19642'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.identity' version='3.9.400.v20200611-2221'>
+      <properties size='1'>
+        <property name='download.size' value='65032'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator' version='1.3.600.v20200721-1308'>
+      <properties size='1'>
+        <property name='download.size' value='46583'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.flatpak.launcher.source' version='1.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20120'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.mediawiki' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='85177'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.5.800.v20200727-1323'>
+      <properties size='1'>
+        <property name='download.size' value='53255'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.twiki.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='10523'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.search' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='70758'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.platform.doc.user' version='4.17.0.v20200831-0727'>
+      <properties size='1'>
+        <property name='download.size' value='9647480'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xmlgraphics' version='2.4.0.v20200622-2037'>
+      <properties size='1'>
+        <property name='download.size' value='720612'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.el' version='2.2.0.v201303151357'>
+      <properties size='1'>
+        <property name='download.size' value='141287'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.artifact.repository' version='1.3.500.v20200406-2025'>
+      <properties size='1'>
+        <property name='download.size' value='156838'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.annotation' version='1.3.5.v20200504-1837'>
+      <properties size='1'>
+        <property name='download.size' value='47289'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.ui.source' version='2.7.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='365413'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.directorywatcher' version='1.2.500.v20191211-1631'>
+      <properties size='1'>
+        <property name='download.size' value='31782'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery.compatibility' version='1.1.200.v20190611-1008'>
+      <properties size='1'>
+        <property name='download.size' value='59203'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.monitoring' version='1.1.800.v20200820-1401'>
+      <properties size='1'>
+        <property name='download.size' value='60484'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet' version='3.1.0.v201410161800'>
+      <properties size='1'>
+        <property name='download.size' value='105237'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.core' version='3.8.1100.v20200806-0621'>
+      <properties size='1'>
+        <property name='download.size' value='404346'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug.source' version='10.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='20536'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.extensions.supplier' version='0.15.700.v20200622-1247'>
+      <properties size='1'>
+        <property name='download.size' value='35295'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.index.ui' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='30957'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient45' version='1.0.301.v20201025-0700'>
+      <properties size='1'>
+        <property name='download.size' value='83357'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.common' version='2.21.0.v20200917-1439'>
+      <properties size='1'>
+        <property name='download.size' value='19479'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util' version='3.5.300.v20190708-1141'>
+      <properties size='1'>
+        <property name='download.size' value='73510'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.ssh.apache' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='171625'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core' version='9.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='1386167'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.batik.css' version='1.13.0.v20200622-2037'>
+      <properties size='1'>
+        <property name='download.size' value='362418'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.monitor.core' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='39921'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.help.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='1346207'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filebuffers' version='3.6.1000.v20200409-1035'>
+      <properties size='1'>
+        <property name='download.size' value='116423'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.w3c.dom.smil' version='1.0.1.v200903091627'>
+      <properties size='1'>
+        <property name='download.size' value='21745'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core.source' version='8.5.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='291926'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.freemarker' version='1.2.100.202011191931'>
+      <properties size='1'>
+        <property name='download.size' value='20922'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javaewah' version='1.1.7.v20200107-0831'>
+      <properties size='1'>
+        <property name='download.size' value='184921'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='11796'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx' version='3.5.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='76798'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='9.2.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='519678'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.texteditor' version='3.15.0.v20200812-2334'>
+      <properties size='1'>
+        <property name='download.size' value='669026'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.core' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='14639'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.common' version='3.13.0.v20200828-1034'>
+      <properties size='1'>
+        <property name='download.size' value='135574'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.genericeditor.diff.extension' version='1.0.600.v20200212-1524'>
+      <properties size='1'>
+        <property name='download.size' value='16615'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.remote' version='3.0.1.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='37824'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpclient' version='4.5.10.v20200830-2311'>
+      <properties size='1'>
+        <property name='download.size' value='1040186'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.servlet' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='142745'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.httpclient' version='3.1.0.v201012070820'>
+      <properties size='1'>
+        <property name='download.size' value='322298'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.linux.x86_64' version='1.2.300.v20180828-0158'>
+      <properties size='1'>
+        <property name='download.size' value='11589'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui.source' version='7.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='3288945'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.bind' version='2.2.0.v201105210648'>
+      <properties size='1'>
+        <property name='download.size' value='124948'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='1950376'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.expressions' version='3.7.0.v20200720-1126'>
+      <properties size='1'>
+        <property name='download.size' value='92924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.contexts' version='1.8.400.v20191217-1710'>
+      <properties size='1'>
+        <property name='download.size' value='48527'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.application' version='1.3.800.v20200713-0938'>
+      <properties size='1'>
+        <property name='download.size' value='111215'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.traditional' version='1.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='169208'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.analyzers-common' version='6.1.0.v20161115-1612'>
+      <properties size='1'>
+        <property name='download.size' value='1564225'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.w3c.css.sac' version='1.3.1.v200903091627'>
+      <properties size='1'>
+        <property name='download.size' value='36448'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.ssh' version='4.6.100.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='59451'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.gdbjtag.jlink' version='4.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='185064'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.http' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='227444'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.mediawiki.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='11714'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.native' version='6.0.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='47006'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.source' version='3.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='83207'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.gnu.ui.source' version='8.4.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='23883'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.ssl' version='1.0.200.v20200611-1836'>
+      <properties size='1'>
+        <property name='download.size' value='9882'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.jsch' version='0.1.55.v20190404-1902'>
+      <properties size='1'>
+        <property name='download.size' value='304961'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.console' version='1.1.300.v20191014-1219'>
+      <properties size='1'>
+        <property name='download.size' value='28782'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator.resources' version='3.7.400.v20200722-0751'>
+      <properties size='1'>
+        <property name='download.size' value='173905'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='451405'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.http.apache' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='14812'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.view.ui' version='4.7.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='256908'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.markdown.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='10226'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sat4j.core' version='2.3.5.v201308161310'>
+      <properties size='1'>
+        <property name='download.size' value='376173'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.properties.tabbed' version='3.8.1000.v20200609-0849'>
+      <properties size='1'>
+        <property name='download.size' value='110061'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform.source' version='10.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='20741'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.connector.process' version='4.7.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='31506'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.ui.refactoring' version='3.11.100.v20200817-1715'>
+      <properties size='1'>
+        <property name='download.size' value='472423'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.view.core' version='4.7.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='42698'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.7.800.v20200724-0804'>
+      <properties size='1'>
+        <property name='download.size' value='100631'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text' version='3.10.300.v20200807-0831'>
+      <properties size='1'>
+        <property name='download.size' value='294510'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.native.source' version='10.0.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='20577'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.net' version='1.3.800.v20200422-1935'>
+      <properties size='1'>
+        <property name='download.size' value='46144'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.html' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='50274'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.security' version='9.4.31.v20200723'>
+      <properties size='1'>
+        <property name='download.size' value='129545'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.jsch.core' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='94513'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.cxx' version='3.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='27784'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.bouncycastle.bcpg' version='1.65.0.v20200527-1955'>
+      <properties size='1'>
+        <property name='download.size' value='330755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch' version='10.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='193085'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.transport' version='2.2.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='111864'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.ui' version='3.8.1000.v20200806-0621'>
+      <properties size='1'>
+        <property name='download.size' value='1463379'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.garbagecollector' version='1.1.400.v20200221-1022'>
+      <properties size='1'>
+        <property name='download.size' value='25396'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.swt' version='0.14.1100.v20200619-0644'>
+      <properties size='1'>
+        <property name='download.size' value='141863'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core' version='7.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='6117225'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.6.0.v20190123-2029'>
+      <properties size='1'>
+        <property name='download.size' value='232616'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.ssh.jsch' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='37949'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.serial.ui' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='75578'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.core.ssl.feature' version='1.1.500.v20200812-2314'>
+      <properties size='1'>
+        <property name='download.size' value='20154'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.core' version='4.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='151363'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse' version='2.2.700.v20200813-0739'>
+      <properties size='1'>
+        <property name='download.size' value='132002'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt' version='0.13.1100.v20200819-0632'>
+      <properties size='1'>
+        <property name='download.size' value='203721'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer' version='3.2.600.v20200611-2221'>
+      <properties size='1'>
+        <property name='download.size' value='129271'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.sshd.osgi' version='2.4.0.v20200318-1614'>
+      <properties size='1'>
+        <property name='download.size' value='1645609'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.commands' version='3.9.700.v20191217-1850'>
+      <properties size='1'>
+        <property name='download.size' value='115489'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.tukaani.xz' version='1.8.0.v20180207-1613'>
+      <properties size='1'>
+        <property name='download.size' value='128232'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.event' version='1.5.500.v20200616-0800'>
+      <properties size='1'>
+        <property name='download.size' value='35256'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.textile.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='12559'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore' version='2.23.0.v20200630-0516'>
+      <properties size='1'>
+        <property name='download.size' value='1414761'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatechecker' version='1.2.300.v20200222-1600'>
+      <properties size='1'>
+        <property name='download.size' value='18590'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.10.800.v20200421-0950'>
+      <properties size='1'>
+        <property name='download.size' value='107653'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.core' version='1.2.2.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='6269'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.bouncycastle.bcprov' version='1.65.1.v20200529-1514'>
+      <properties size='1'>
+        <property name='download.size' value='4455294'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf.source' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20532'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.e4.rcp' version='4.17.0.v20200831-1002'>
+      <properties size='1'>
+        <property name='download.size' value='21571'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx.source' version='3.5.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='59300'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.managedbuild.cross' version='1.3.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='51619'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.concurrent' version='1.1.500.v20200106-1437'>
+      <properties size='1'>
+        <property name='download.size' value='26570'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.wikitext.editors_feature' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='19298'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.tracwiki' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='74281'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources' version='3.13.800.v20200706-2152'>
+      <properties size='1'>
+        <property name='download.size' value='896698'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.6.0.v201404270220'>
+      <properties size='1'>
+        <property name='download.size' value='298623'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.ui' version='2.7.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='919079'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.addons.swt' version='1.3.1100.v20200703-0611'>
+      <properties size='1'>
+        <property name='download.size' value='117727'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security' version='1.3.500.v20200114-1637'>
+      <properties size='1'>
+        <property name='download.size' value='113283'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.core' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='500872'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.activation' version='1.2.2.v20201119-1642'>
+      <properties size='1'>
+        <property name='download.size' value='84701'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.ui' version='1.2.700.v20200807-1518'>
+      <properties size='1'>
+        <property name='download.size' value='171317'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.themes' version='1.2.1100.v20200825-0757'>
+      <properties size='1'>
+        <property name='download.size' value='53772'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.databinding' version='1.12.0.v20200717-1533'>
+      <properties size='1'>
+        <property name='download.size' value='298738'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.reconciler.dropins' version='1.3.400.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='50286'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.jsp.jasper' version='1.1.500.v20200422-1833'>
+      <properties size='1'>
+        <property name='download.size' value='28431'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.cypress.studio.feature' version='3.1.0'>
+      <properties size='1'>
+        <property name='download.size' value='12809'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.core' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='535717'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.discovery.ui' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='94501'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jsoup' version='1.8.3.v20181012-1713'>
+      <properties size='1'>
+        <property name='download.size' value='344634'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.gtk.linux.x86_64' version='1.1.1300.v20200819-0940'>
+      <properties size='1'>
+        <property name='download.size' value='71766'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core' version='4.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='150391'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change' version='2.14.0.v20190528-0725'>
+      <properties size='1'>
+        <property name='download.size' value='102940'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.platform.branding' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19796'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.doc.isv' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='359663'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19296'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.codec' version='1.14.0.v20200818-1422'>
+      <properties size='1'>
+        <property name='download.size' value='376428'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di' version='1.7.600.v20200428-0912'>
+      <properties size='1'>
+        <property name='download.size' value='52809'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19624'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.gson' version='2.8.2.v20180104-1110'>
+      <properties size='1'>
+        <property name='download.size' value='259868'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
+      <properties size='1'>
+        <property name='download.size' value='14411'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.discovery' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19600'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.sdk' version='10.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='19370'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.icu' version='67.1.0.v20200706-1749'>
+      <properties size='1'>
+        <property name='download.size' value='13569732'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.commands' version='0.12.900.v20200110-1732'>
+      <properties size='1'>
+        <property name='download.size' value='26044'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.ssh.apache' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='14783'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery' version='1.1.200.v20190611-1008'>
+      <properties size='1'>
+        <property name='download.size' value='38383'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.ui' version='1.2.100.202010121414'>
+      <properties size='1'>
+        <property name='download.size' value='37484'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.compress' version='1.19.0.v20200106-2343'>
+      <properties size='1'>
+        <property name='download.size' value='655226'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide' version='3.17.200.v20200808-0622'>
+      <properties size='1'>
+        <property name='download.size' value='2478482'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.theme' version='0.12.700.v20200527-0719'>
+      <properties size='1'>
+        <property name='download.size' value='27971'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.ui' version='4.2.0.v20200724-0708'>
+      <properties size='1'>
+        <property name='download.size' value='537579'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator' version='3.9.400.v20200723-2304'>
+      <properties size='1'>
+        <property name='download.size' value='427741'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.log' version='1.2.1200.v20200828-0938'>
+      <properties size='1'>
+        <property name='download.size' value='172568'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.16.0.v20200828-0759'>
+      <properties size='1'>
+        <property name='download.size' value='1515519'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.10.100.201606061308'>
+      <properties size='1'>
+        <property name='download.size' value='616652'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.gcc.ui' version='1.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='42866'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.debug.gdbjtag' version='4.2.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='354051'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher' version='1.5.400.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='100409'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.runtime' version='1.1.0.v20180713-1646'>
+      <properties size='1'>
+        <property name='download.size' value='208743'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.context.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='30526'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.native.source' version='6.0.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='76583'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core.memory' version='0.1.0.202008310315'>
+      <properties size='1'>
+        <property name='download.size' value='36180'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime' version='3.19.0.v20200724-1004'>
+      <properties size='1'>
+        <property name='download.size' value='73375'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jakarta.xml.bind' version='2.3.3.v20201118-1818'>
+      <properties size='1'>
+        <property name='download.size' value='136547'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.platform.branding.source' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='7541'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.ssh.jsch' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='14763'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.activation' version='1.1.0.v201211130549'>
+      <properties size='1'>
+        <property name='download.size' value='55065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services' version='3.9.0.v20200511-1725'>
+      <properties size='1'>
+        <property name='download.size' value='128679'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.beans' version='1.7.0.v20200717-1533'>
+      <properties size='1'>
+        <property name='download.size' value='93673'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.user' version='5.4.500.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='15643136'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.console' version='3.9.300.v20200828-0817'>
+      <properties size='1'>
+        <property name='download.size' value='209969'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.webapp' version='3.10.0.v20200724-0708'>
+      <properties size='1'>
+        <property name='download.size' value='698777'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.di' version='1.2.800.v20200128-0855'>
+      <properties size='1'>
+        <property name='download.size' value='16632'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.workbench' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='181223'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.doc' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='4781625'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf' version='3.9.100.v20200611-2221'>
+      <properties size='1'>
+        <property name='download.size' value='124182'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.osgi' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='13718'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.native.serial' version='1.2.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='149391'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.services' version='2.2.400.v20200622-1247'>
+      <properties size='1'>
+        <property name='download.size' value='70490'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext' version='3.0.38.20200817211131'>
+      <properties size='1'>
+        <property name='download.size' value='372680'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.freemarker' version='2.3.22.v20160210-1233'>
+      <properties size='1'>
+        <property name='download.size' value='1385723'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.logging' version='1.2.0.v20180409-1502'>
+      <properties size='1'>
+        <property name='download.size' value='73163'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.variables' version='3.4.800.v20200120-1101'>
+      <properties size='1'>
+        <property name='download.size' value='36056'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.text' version='3.16.400.v20200807-0831'>
+      <properties size='1'>
+        <property name='download.size' value='1049643'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.ui' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='63124'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna.platform' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='1195544'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.analyzers-smartcn' version='8.4.1.v20200122-1459'>
+      <properties size='1'>
+        <property name='download.size' value='3614528'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.universal' version='3.4.0.v20200805-1259'>
+      <properties size='1'>
+        <property name='download.size' value='2195675'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.5.0.202009040332'>
+      <properties size='1'>
+        <property name='download.size' value='464886'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.importexport' version='1.2.500.v20200731-1005'>
+      <properties size='1'>
+        <property name='download.size' value='127605'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt' version='10.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='19661'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet.jsp' version='2.2.0.v201112011158'>
+      <properties size='1'>
+        <property name='download.size' value='111144'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.serial.core' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='60818'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.core' version='3.16.0.v20200828-0817'>
+      <properties size='1'>
+        <property name='download.size' value='394935'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.feed' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='31604'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox' version='1.1.400.v20200319-1546'>
+      <properties size='1'>
+        <property name='download.size' value='68502'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.build.crossgcc' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19340'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.forms' version='3.10.0.v20200727-0948'>
+      <properties size='1'>
+        <property name='download.size' value='333057'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb.source' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='20505'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='254976'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.launchbar.core' version='2.4.100.202010121414'>
+      <properties size='1'>
+        <property name='download.size' value='79626'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.discovery' version='1.1.600.v20200705-1016'>
+      <properties size='1'>
+        <property name='download.size' value='157170'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.browser' version='3.6.900.v20200807-1330'>
+      <properties size='1'>
+        <property name='download.size' value='207689'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.api' version='1.7.2.v20121108-1250'>
+      <properties size='1'>
+        <property name='download.size' value='37026'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.command' version='1.0.2.v20170914-1324'>
+      <properties size='1'>
+        <property name='download.size' value='58232'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.source' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='953379'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.core' version='1.3.900.v20200422-1935'>
+      <properties size='1'>
+        <property name='download.size' value='41711'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.gcc.core.source' version='1.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='23332'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn_feature' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='20286'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata' version='2.5.0.v20200511-1530'>
+      <properties size='1'>
+        <property name='download.size' value='361112'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.net' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='86083'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.9.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='345191'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.flatpak.launcher' version='1.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='36231'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.widgets' version='1.2.700.v20191222-1048'>
+      <properties size='1'>
+        <property name='download.size' value='13421'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.ui' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='2076834'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.native' version='10.0.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='19581'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.gcc.core' version='1.1.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='39024'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cypress.shared' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='560790'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net' version='1.3.1000.v20200715-0827'>
+      <properties size='1'>
+        <property name='download.size' value='70762'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.help' version='2.3.300.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='19967'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='100035'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.services' version='1.3.700.v20190930-1643'>
+      <properties size='1'>
+        <property name='download.size' value='24891'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.console' version='1.4.200.v20200828-1034'>
+      <properties size='1'>
+        <property name='download.size' value='125863'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench' version='1.11.400.v20200828-0938'>
+      <properties size='1'>
+        <property name='download.size' value='248904'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sat4j.pb' version='2.3.5.v201404071733'>
+      <properties size='1'>
+        <property name='download.size' value='249896'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf' version='1.2.400.v20200123-2221'>
+      <properties size='1'>
+        <property name='download.size' value='44445'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.sdk.scheduler' version='1.4.800.v20200731-1005'>
+      <properties size='1'>
+        <property name='download.size' value='101844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.feature' version='3.14.1400.v20200812-2314'>
+      <properties size='1'>
+        <property name='download.size' value='28462'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.source' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='10613'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt' version='0.14.1300.v20200829-1411'>
+      <properties size='1'>
+        <property name='download.size' value='250577'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.launch.remote' version='10.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='19392'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='8.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='509181'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.repositories.ui' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='99785'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui' version='2.6.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='1472261'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilg.gnumcueclipse.packs.core' version='2.4.2.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='73078'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.shell' version='1.1.0.v20180713-1646'>
+      <properties size='1'>
+        <property name='download.size' value='69091'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.notifications' version='0.2.0.v20200810-0826'>
+      <properties size='1'>
+        <property name='download.size' value='26232'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.urischeme' version='1.1.100.v20200729-2048'>
+      <properties size='1'>
+        <property name='download.size' value='49589'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.context.ui' version='3.25.2.v20200828-1617'>
+      <properties size='1'>
+        <property name='download.size' value='169243'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.el' version='2.2.0.v201303151357'>
+      <properties size='1'>
+        <property name='download.size' value='58213'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.tracwiki.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='10667'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.lucene.analyzers-common' version='8.4.1.v20200122-1459'>
+      <properties size='1'>
+        <property name='download.size' value='1756190'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.ssl.feature' version='1.1.400.v20200812-2314'>
+      <properties size='1'>
+        <property name='download.size' value='24279'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.identity.core' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='46420'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.crossgcc' version='1.2.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='30514'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.ant' version='1.10.8.v20200515-1239'>
+      <properties size='1'>
+        <property name='download.size' value='3142952'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.swt.gtk' version='1.0.600.v20190627-0755'>
+      <properties size='1'>
+        <property name='download.size' value='10652'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.externaltools' version='3.4.800.v20200612-0848'>
+      <properties size='1'>
+        <property name='download.size' value='146815'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.junit' version='4.13.0.v20200204-1500'>
+      <properties size='1'>
+        <property name='download.size' value='425413'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.property' version='1.8.100.v20200619-0651'>
+      <properties size='1'>
+        <property name='download.size' value='165218'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.dialogs' version='1.2.0.v20200807-0944'>
+      <properties size='1'>
+        <property name='download.size' value='58017'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ilg.gnumcueclipse.debug.gdbjtag.openocd.feature' version='4.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='13472'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag' version='7.0.300.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='13014'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform' version='10.0.0.202009071455'>
+      <properties size='1'>
+        <property name='download.size' value='19732'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.http.apache' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='22236'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.index.core' version='3.25.2.v20200814-0512'>
+      <properties size='1'>
+        <property name='download.size' value='33748'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.ui.source' version='3.3.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='48802'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository.tools' version='2.2.500.v20200110-2121'>
+      <properties size='1'>
+        <property name='download.size' value='254231'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.base' version='4.3.0.v20200902-1800'>
+      <properties size='1'>
+        <property name='download.size' value='434944'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86_64' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='21755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.discovery.core' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='91204'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.archive' version='5.9.0.202009080501-r'>
+      <properties size='1'>
+        <property name='download.size' value='25060'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.source' version='10.0.0.202009010132'>
+      <properties size='1'>
+        <property name='download.size' value='103173'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.launchbar.ui' version='2.4.100.202012041937'>
+      <properties size='1'>
+        <property name='download.size' value='87870'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.update.configurator' version='3.4.600.v20200422-1910'>
+      <properties size='1'>
+        <property name='download.size' value='97296'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.identity' version='1.17.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19567'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ilg.gnumcueclipse.debug.gdbjtag.pyocd.feature' version='1.4.1.202001271244'>
+      <properties size='1'>
+        <property name='download.size' value='13470'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.compatibility.state' version='1.2.100.v20200811-1344'>
+      <properties size='1'>
+        <property name='download.size' value='248035'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ssl' version='1.2.400.v20200611-2220'>
+      <properties size='1'>
+        <property name='download.size' value='15658'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.scr' version='2.1.16.v20200110-1820'>
+      <properties size='1'>
+        <property name='download.size' value='416644'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator' version='2.1.500.v20200211-1505'>
+      <properties size='1'>
+        <property name='download.size' value='26960'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui.source' version='9.2.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='238486'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.sshd.sftp' version='2.4.0.v20200319-1547'>
+      <properties size='1'>
+        <property name='download.size' value='334026'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.remote.telnet.core' version='1.0.0.201909031456'>
+      <properties size='1'>
+        <property name='download.size' value='76425'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.tasks.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='46518'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='13721'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.jetty' version='3.7.400.v20200123-1333'>
+      <properties size='1'>
+        <property name='download.size' value='29370'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.confluence.ui' version='3.0.38.202008172112'>
+      <properties size='1'>
+        <property name='download.size' value='11964'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.monitor' version='3.25.2.v20200813-0821'>
+      <properties size='1'>
+        <property name='download.size' value='19588'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.1.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='300769'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.ui' version='3.14.600.v20200828-0817'>
+      <properties size='1'>
+        <property name='download.size' value='3059342'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

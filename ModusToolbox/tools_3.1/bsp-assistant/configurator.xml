@@ -1,0 +1,10 @@
+<configurators>
+  <configurator id="bsp-assistant">
+    <display_name>BSP Assistant 1.10</display_name>
+    <executable>bsp-assistant</executable>
+    <icon>bsp-assistant.png</icon>
+    <command_line_args />
+    <new_configuration_enabled>none</new_configuration_enabled>
+    <supported_file_extensions />
+  </configurator>
+</configurators>

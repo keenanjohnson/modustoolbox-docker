@@ -1,0 +1,27 @@
+{
+    "core": {
+      "id": "1901ec91-2683-4ab4-8034-211b772c9a2b",
+      "name": "fw-loader",
+      "version": "3.5.0.2114",
+      "schema-version": "1"
+    },
+    "opt": {
+      "tool": {
+        "make-vars": {
+          "fw-loader_BASE": "$$TOOL_DIR:relative$$",
+          "fw-loader_EXE": "$$TOOLPATH:bin/fw-loader:relative$$",
+          "fw-loader_BASE_ABS": "$$TOOL_DIR:absolute$$",
+          "fw-loader_EXE_ABS": "$$TOOLPATH:bin/fw-loader:absolute$$"
+        }
+      },
+    "programs" : [
+      {
+       "id" : "e41750c7-ec03-45be-af76-60108f35e4d3",
+       "exe" : "bin/fw-loader",
+       "type" : "none",
+       "display-name" : "Firmware Loader",
+       "short-name" : "fw-loader"
+      }
+     ]
+    }
+}

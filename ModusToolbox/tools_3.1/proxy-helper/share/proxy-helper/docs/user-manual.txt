@@ -1,0 +1,102 @@
+Copyright (C) 2020-2023, Cypress Semiconductor Corporation (an Infineon
+company) or a subsidiary of Cypress Semiconductor Corporation. All 
+rights reserved. Other names and brands may be claimed as property of
+their respective owners.
+
+======================================================================
+The proxy-helper tool simplifies managing proxy server
+settings for ModusToolbox users. The tool uses both the
+traditional environment variables (http_proxy and https_proxy) and
+user-based settings that are stored specifically for the proxy-helper tool.
+
+The proxy-helper is a command line tool. It supports the following
+command line options and arguments:
+
+Options:
+  -?, -h, --help           Displays this help.
+  -v, --version            Displays version information.
+  -l, --lookup <url>       Lookup the proxy settings for a url.
+  -e, --exec <command>     Set the proxy environment then run the
+      	     		   given command. 
+  -c, --config <list|set>  Manage the proxy settings.
+
+======================================================================
+Commands and options
+
+The following sections describe each of the proxy-helper tool commands:
+
+----------------------------------------------------------------------
+-c, --config
+
+The "config" options have two sub-commands that allow you to list
+and set the settings for the proxy-helper tool. 
+
+The "list" sub-command lists the settings. For example:
+
+> proxy-helper --config list
+mode: manual
+proxy: myproxy.company.com
+
+The "set" sub-command allows you to set one of the settings. The
+setting and new value are specifed as name=value. The value can be an
+empty string. Each invocation of the tool only sets one value. For
+example:
+
+> proxy-helper --config set mode=manual
+> proxy-helper --config set proxy=myproxy.company.com
+> proxy-helper --config set proxy=
+
+----------------------------------------------------------------------
+-l, --lookup
+
+The "lookup" option takes a <url> argument. This function prints (to
+stdout) the relevant proxy server to use when accessing the provided
+url. This command is used when another tool needs to
+find the appropriate proxy server. For example, the project-creator
+and library-manager tools call "proxy-helper --lookup <manifest url>"
+to discover the proxy server to use when accessing the manifest files
+via http(s) connections.
+
+The "lookup" function first checks the calling environment. If the
+http_proxy and https_proxy environment variables are already set,
+those values are returned. If not, proxy-helper checks your 
+settings. If the mode is "manual", the proxy-helper uses those proxy
+settings. If the mode is "direct", the
+proxy-helper uses an empty string as the proxy server address.
+
+If there is a conflict between the environment variables and the
+proxy-helper settings, the tool prints a warning message to make it 
+clear which value is being used and how to change it.
+
+----------------------------------------------------------------------
+-e, --exec
+
+The "exec" option runs the provided command (including command line
+arguments for that command) after setting the http_proxy and
+https_proxy environment variables to the correct settings. The "exec"
+option uses the "lookup" function to find the proxy server.
+
+If the http_proxy and https_proxy environment variables are already
+set, they stay set.
+
+The exit code from running the command is returned as the exit
+code from proxy-helper.
+
+======================================================================
+Settings
+
+The proxy-helper tools maintain two settings: mode and proxy. 
+
+The mode setting has the value of "manual" or "direct". In "direct" mode, the
+proxy-helper tool makes no change to the environment. In "manual"
+mode, the proxy-helper tool uses the value of the proxy setting. 
+
+The proxy setting includes the server and port to use as a proxy server. The
+format is servername:port. For example:
+
+myproxy.company.com:8888
+
+Both the project-creator and library-manager tools have a GUI for
+changing the settings. In addition, the command line option --config
+can be used to change the settings.
+

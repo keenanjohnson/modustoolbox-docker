@@ -1,0 +1,45 @@
+{
+    "core": {
+        "id": "fdfacdb7-d561-444a-a214-713ac28a3354",
+        "name": "bsp-assistant",
+        "version": "1.10.0.1338",
+        "schema-version": "1"
+    },
+    "opt": {
+        "tool": {
+            "make-vars": {
+                "bsp-assistant_BASE_ABS": "$$TOOL_DIR:absolute$$"
+            }
+        },
+        "programs": [
+            {
+                "id": "b348cfea-89a5-4b8c-9896-7aa361a43c55",
+                "short-name": "bsp-assistant",
+                "exe": "bsp-assistant",
+                "icon": "bsp-assistant.png",
+                "display-name": "BSP Assistant 1.10",
+                "type": "none",
+                "open-file" : "--bsploc $$BSP_DIR$$",
+                "make-vars" : {
+                    "bsp-assistant_EXE_ABS": "$$TOOLPATH:bsp-assistant:absolute$$"
+                },
+                "app-make-targets": [
+                    "bsp-assistant"
+                ],
+                "prj-make-targets" : [
+                    "bsp-assistant"
+                ]
+            },
+            {
+                "id": "9d897172-7bc2-4be4-b93f-f2034bbf6bda",
+                "short-name": "bsp-assistant-cli",
+                "exe": "bsp-assistant-cli",
+                "display-name": "bsp-assistant-cli",
+                "type": "none",
+                "make-vars" : {
+                    "bsp-assistant-cli_EXE_ABS": "$$TOOLPATH:bsp-assistant-cli:absolute$$"
+                }
+            }
+        ]
+    }
+}
